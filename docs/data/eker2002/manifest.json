@@ -1,0 +1,767 @@
+[
+  {
+    "file": "eker2002_fig1_AAA_zwitterion_D2O_ir.csv",
+    "figure": 1,
+    "identity": "AAA_zwitterion_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 450.51724137931035,
+    "normalization_scale_pixels": 281.51724137931035,
+    "pixel_to_wavenumber": [
+      0.6136475208640157,
+      1505.6701030927834
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 320,
+    "source_sha256": "1ef1d6512afcfd561d4c2668abcbd7a9164efd3c33de5e025187741a797fd85b"
+  },
+  {
+    "file": "eker2002_fig1_A_DA_A_zwitterion_D2O_ir.csv",
+    "figure": 1,
+    "identity": "A_DA_A_zwitterion_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 450.51724137931035,
+    "normalization_scale_pixels": 409.01724137931035,
+    "pixel_to_wavenumber": [
+      0.6136475208640157,
+      1505.6701030927834
+    ],
+    "interpolated_columns": 2,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 319,
+    "source_sha256": "1ef1d6512afcfd561d4c2668abcbd7a9164efd3c33de5e025187741a797fd85b"
+  },
+  {
+    "file": "eker2002_fig1_AAA_zwitterion_D2O_raman_iso.csv",
+    "figure": 1,
+    "identity": "AAA_zwitterion_D2O_raman_iso",
+    "notes": "",
+    "baseline_pixel": 467.32758620689657,
+    "normalization_scale_pixels": 389.32758620689657,
+    "pixel_to_wavenumber": [
+      0.6168270416975085,
+      1223.5751295336786
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 310,
+    "source_sha256": "1ef1d6512afcfd561d4c2668abcbd7a9164efd3c33de5e025187741a797fd85b"
+  },
+  {
+    "file": "eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso.csv",
+    "figure": 1,
+    "identity": "A_DA_A_zwitterion_D2O_raman_iso",
+    "notes": "",
+    "baseline_pixel": 467.32758620689657,
+    "normalization_scale_pixels": 344.32758620689657,
+    "pixel_to_wavenumber": [
+      0.6168270416975085,
+      1223.5751295336786
+    ],
+    "interpolated_columns": 26,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 319,
+    "source_sha256": "1ef1d6512afcfd561d4c2668abcbd7a9164efd3c33de5e025187741a797fd85b"
+  },
+  {
+    "file": "eker2002_fig1_AAA_zwitterion_D2O_raman_aniso.csv",
+    "figure": 1,
+    "identity": "AAA_zwitterion_D2O_raman_aniso",
+    "notes": "",
+    "baseline_pixel": 467.32758620689657,
+    "normalization_scale_pixels": 337.82758620689657,
+    "pixel_to_wavenumber": [
+      0.6168270416975083,
+      941.7098445595846
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 319,
+    "source_sha256": "1ef1d6512afcfd561d4c2668abcbd7a9164efd3c33de5e025187741a797fd85b"
+  },
+  {
+    "file": "eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso.csv",
+    "figure": 1,
+    "identity": "A_DA_A_zwitterion_D2O_raman_aniso",
+    "notes": "",
+    "baseline_pixel": 467.32758620689657,
+    "normalization_scale_pixels": 279.82758620689657,
+    "pixel_to_wavenumber": [
+      0.6168270416975083,
+      941.7098445595846
+    ],
+    "interpolated_columns": 39,
+    "isolated_outliers_replaced": 1,
+    "status": "pending user validation",
+    "points": 319,
+    "source_sha256": "1ef1d6512afcfd561d4c2668abcbd7a9164efd3c33de5e025187741a797fd85b"
+  },
+  {
+    "file": "eker2002_fig3_AAA_anionic_D2O_vcd.csv",
+    "figure": 3,
+    "identity": "AAA_anionic_D2O_vcd",
+    "notes": "",
+    "baseline_pixel": 388.1065830721003,
+    "normalization_scale_pixels": 310.1065830721003,
+    "pixel_to_wavenumber": [
+      -0.20939755277080108,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2558,
+    "source_sha256": "ea788fb8a5e74f945ff87a47be64839682f850464d76e6405a17758c54efa7be"
+  },
+  {
+    "file": "eker2002_fig3_AAA_zwitterion_D2O_vcd.csv",
+    "figure": 3,
+    "identity": "AAA_zwitterion_D2O_vcd",
+    "notes": "",
+    "baseline_pixel": 576.5078369905956,
+    "normalization_scale_pixels": 356.5078369905956,
+    "pixel_to_wavenumber": [
+      -0.20939755277080108,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2558,
+    "source_sha256": "ea788fb8a5e74f945ff87a47be64839682f850464d76e6405a17758c54efa7be"
+  },
+  {
+    "file": "eker2002_fig3_AAA_cationic_D2O_vcd.csv",
+    "figure": 3,
+    "identity": "AAA_cationic_D2O_vcd",
+    "notes": "",
+    "baseline_pixel": 862.8777429467084,
+    "normalization_scale_pixels": 791.6222570532916,
+    "pixel_to_wavenumber": [
+      -0.20939755277080108,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2558,
+    "source_sha256": "ea788fb8a5e74f945ff87a47be64839682f850464d76e6405a17758c54efa7be"
+  },
+  {
+    "file": "eker2002_fig3_AAA_anionic_D2O_ir.csv",
+    "figure": 3,
+    "identity": "AAA_anionic_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 2421.5,
+    "normalization_scale_pixels": 667.0,
+    "pixel_to_wavenumber": [
+      -0.20939755277080108,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2558,
+    "source_sha256": "ea788fb8a5e74f945ff87a47be64839682f850464d76e6405a17758c54efa7be"
+  },
+  {
+    "file": "eker2002_fig3_AAA_zwitterion_D2O_ir.csv",
+    "figure": 3,
+    "identity": "AAA_zwitterion_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 2836.5,
+    "normalization_scale_pixels": 741.5,
+    "pixel_to_wavenumber": [
+      -0.20939755277080108,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2558,
+    "source_sha256": "ea788fb8a5e74f945ff87a47be64839682f850464d76e6405a17758c54efa7be"
+  },
+  {
+    "file": "eker2002_fig3_AAA_cationic_D2O_ir.csv",
+    "figure": 3,
+    "identity": "AAA_cationic_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 3140.5,
+    "normalization_scale_pixels": 590.0,
+    "pixel_to_wavenumber": [
+      -0.20939755277080108,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2558,
+    "source_sha256": "ea788fb8a5e74f945ff87a47be64839682f850464d76e6405a17758c54efa7be"
+  },
+  {
+    "file": "eker2002_fig6_VVV_anionic_D2O_vcd.csv",
+    "figure": 6,
+    "identity": "VVV_anionic_D2O_vcd",
+    "notes": "",
+    "baseline_pixel": 190.05219206680584,
+    "normalization_scale_pixels": 559.4478079331941,
+    "pixel_to_wavenumber": [
+      -0.21157438849712393,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2532,
+    "source_sha256": "bdb83e01133e4b2e7c99ea4c813876850108986c5c11c9a463a6f62f137372ef"
+  },
+  {
+    "file": "eker2002_fig6_VVV_zwitterion_D2O_vcd.csv",
+    "figure": 6,
+    "identity": "VVV_zwitterion_D2O_vcd",
+    "notes": "",
+    "baseline_pixel": 488.1732776617954,
+    "normalization_scale_pixels": 428.3267223382046,
+    "pixel_to_wavenumber": [
+      -0.21157438849712393,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2532,
+    "source_sha256": "bdb83e01133e4b2e7c99ea4c813876850108986c5c11c9a463a6f62f137372ef"
+  },
+  {
+    "file": "eker2002_fig6_VVV_cationic_D2O_vcd.csv",
+    "figure": 6,
+    "identity": "VVV_cationic_D2O_vcd",
+    "notes": "",
+    "baseline_pixel": 853.3716075156576,
+    "normalization_scale_pixels": 767.1283924843424,
+    "pixel_to_wavenumber": [
+      -0.21157438849712393,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2532,
+    "source_sha256": "bdb83e01133e4b2e7c99ea4c813876850108986c5c11c9a463a6f62f137372ef"
+  },
+  {
+    "file": "eker2002_fig6_VVV_anionic_D2O_ir.csv",
+    "figure": 6,
+    "identity": "VVV_anionic_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 2529.5,
+    "normalization_scale_pixels": 834.0,
+    "pixel_to_wavenumber": [
+      -0.21157438849712393,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2532,
+    "source_sha256": "bdb83e01133e4b2e7c99ea4c813876850108986c5c11c9a463a6f62f137372ef"
+  },
+  {
+    "file": "eker2002_fig6_VVV_zwitterion_D2O_ir.csv",
+    "figure": 6,
+    "identity": "VVV_zwitterion_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 2895.5,
+    "normalization_scale_pixels": 783.0,
+    "pixel_to_wavenumber": [
+      -0.21157438849712393,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2532,
+    "source_sha256": "bdb83e01133e4b2e7c99ea4c813876850108986c5c11c9a463a6f62f137372ef"
+  },
+  {
+    "file": "eker2002_fig6_VVV_cationic_D2O_ir.csv",
+    "figure": 6,
+    "identity": "VVV_cationic_D2O_ir",
+    "notes": "",
+    "baseline_pixel": 3203.0,
+    "normalization_scale_pixels": 687.5,
+    "pixel_to_wavenumber": [
+      -0.21157438849712393,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2530,
+    "source_sha256": "bdb83e01133e4b2e7c99ea4c813876850108986c5c11c9a463a6f62f137372ef"
+  },
+  {
+    "file": "eker2002_fig11_SSS_anionic_D2O_vcd.csv",
+    "figure": 11,
+    "identity": "SSS_anionic_D2O_vcd",
+    "notes": "Figure 11 caption says VVV; main text identifies SSS.",
+    "baseline_pixel": 279.6569343065693,
+    "normalization_scale_pixels": 275.8430656934307,
+    "pixel_to_wavenumber": [
+      -0.2171076484853488,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2468,
+    "source_sha256": "dd1e430ddd19bce4db8f6628ada99cb3aaea5ba58f3f16c644bb2b3765204808"
+  },
+  {
+    "file": "eker2002_fig11_SSS_cationic_D2O_vcd.csv",
+    "figure": 11,
+    "identity": "SSS_cationic_D2O_vcd",
+    "notes": "Figure 11 caption says VVV; main text identifies SSS.",
+    "baseline_pixel": 853.4984358706986,
+    "normalization_scale_pixels": 687.0015641293014,
+    "pixel_to_wavenumber": [
+      -0.2171076484853488,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2468,
+    "source_sha256": "dd1e430ddd19bce4db8f6628ada99cb3aaea5ba58f3f16c644bb2b3765204808"
+  },
+  {
+    "file": "eker2002_fig11_SSS_anionic_D2O_ir.csv",
+    "figure": 11,
+    "identity": "SSS_anionic_D2O_ir",
+    "notes": "Figure 11 caption says VVV; main text identifies SSS.",
+    "baseline_pixel": 2430.5,
+    "normalization_scale_pixels": 748.0,
+    "pixel_to_wavenumber": [
+      -0.2171076484853488,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2468,
+    "source_sha256": "dd1e430ddd19bce4db8f6628ada99cb3aaea5ba58f3f16c644bb2b3765204808"
+  },
+  {
+    "file": "eker2002_fig11_SSS_cationic_D2O_ir.csv",
+    "figure": 11,
+    "identity": "SSS_cationic_D2O_ir",
+    "notes": "Figure 11 caption says VVV; main text identifies SSS.",
+    "baseline_pixel": 3121.5,
+    "normalization_scale_pixels": 807.5,
+    "pixel_to_wavenumber": [
+      -0.2171076484853488,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2461,
+    "source_sha256": "dd1e430ddd19bce4db8f6628ada99cb3aaea5ba58f3f16c644bb2b3765204808"
+  },
+  {
+    "file": "eker2002_fig14_KKK_neutral_label_D2O_vcd.csv",
+    "figure": 14,
+    "identity": "KKK_neutral_label_D2O_vcd",
+    "notes": "Figure 14 labels acidic/neutral; text says pD 1 and 2, so exact pD is unresolved.",
+    "baseline_pixel": 352.4509394572025,
+    "normalization_scale_pixels": 268.0490605427975,
+    "pixel_to_wavenumber": [
+      -0.2103750671885374,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2546,
+    "source_sha256": "9e88daf50826b3cab14fe08669ea74a1f44a49a0ae3051adb5f1f873a923aad0"
+  },
+  {
+    "file": "eker2002_fig14_KKK_acidic_label_D2O_vcd.csv",
+    "figure": 14,
+    "identity": "KKK_acidic_label_D2O_vcd",
+    "notes": "Figure 14 labels acidic/neutral; text says pD 1 and 2, so exact pD is unresolved.",
+    "baseline_pixel": 712.4008350730688,
+    "normalization_scale_pixels": 910.0991649269312,
+    "pixel_to_wavenumber": [
+      -0.2103750671885374,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2546,
+    "source_sha256": "9e88daf50826b3cab14fe08669ea74a1f44a49a0ae3051adb5f1f873a923aad0"
+  },
+  {
+    "file": "eker2002_fig14_KKK_neutral_label_D2O_ir.csv",
+    "figure": 14,
+    "identity": "KKK_neutral_label_D2O_ir",
+    "notes": "Figure 14 labels acidic/neutral; text says pD 1 and 2, so exact pD is unresolved.",
+    "baseline_pixel": 2528.5,
+    "normalization_scale_pixels": 784.5,
+    "pixel_to_wavenumber": [
+      -0.2103750671885374,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2546,
+    "source_sha256": "9e88daf50826b3cab14fe08669ea74a1f44a49a0ae3051adb5f1f873a923aad0"
+  },
+  {
+    "file": "eker2002_fig14_KKK_acidic_label_D2O_ir.csv",
+    "figure": 14,
+    "identity": "KKK_acidic_label_D2O_ir",
+    "notes": "Figure 14 labels acidic/neutral; text says pD 1 and 2, so exact pD is unresolved.",
+    "baseline_pixel": 3113.0,
+    "normalization_scale_pixels": 615.5,
+    "pixel_to_wavenumber": [
+      -0.2103750671885374,
+      1888.3280757097791
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2546,
+    "source_sha256": "9e88daf50826b3cab14fe08669ea74a1f44a49a0ae3051adb5f1f873a923aad0"
+  },
+  {
+    "file": "eker2002_fig5_VVV_anionic_solvent_unspecified_ir.csv",
+    "figure": 5,
+    "identity": "VVV_anionic_solvent_unspecified_ir",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded. Caption allows H2O or D2O without assigning panels; solvent left unresolved.",
+    "baseline_pixel": 1021.0416666666667,
+    "normalization_scale_pixels": 611.5416666666667,
+    "pixel_to_wavenumber": [
+      0.15333366555627548,
+      1484.9397590361455
+    ],
+    "interpolated_columns": 135,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1092,
+    "source_sha256": "cbcd73b0aa47c13b4de7272f41822cea6f52ea08a719190c7b46abe4bc39f877"
+  },
+  {
+    "file": "eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso.csv",
+    "figure": 5,
+    "identity": "VVV_anionic_solvent_unspecified_raman_iso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded. Caption allows H2O or D2O without assigning panels; solvent left unresolved.",
+    "baseline_pixel": 1987.1041666666667,
+    "normalization_scale_pixels": 754.6041666666667,
+    "pixel_to_wavenumber": [
+      0.15333366555627548,
+      1484.9397590361455
+    ],
+    "interpolated_columns": 21,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1281,
+    "source_sha256": "cbcd73b0aa47c13b4de7272f41822cea6f52ea08a719190c7b46abe4bc39f877"
+  },
+  {
+    "file": "eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso.csv",
+    "figure": 5,
+    "identity": "VVV_anionic_solvent_unspecified_raman_aniso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded. Caption allows H2O or D2O without assigning panels; solvent left unresolved.",
+    "baseline_pixel": 2949.2395833333335,
+    "normalization_scale_pixels": 787.7395833333335,
+    "pixel_to_wavenumber": [
+      0.15333366555627548,
+      1484.9397590361455
+    ],
+    "interpolated_columns": 21,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1281,
+    "source_sha256": "cbcd73b0aa47c13b4de7272f41822cea6f52ea08a719190c7b46abe4bc39f877"
+  },
+  {
+    "file": "eker2002_fig5_VVV_cationic_solvent_unspecified_ir.csv",
+    "figure": 5,
+    "identity": "VVV_cationic_solvent_unspecified_ir",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded. Caption allows H2O or D2O without assigning panels; solvent left unresolved.",
+    "baseline_pixel": 1021.0416666666667,
+    "normalization_scale_pixels": 958.0416666666667,
+    "pixel_to_wavenumber": [
+      0.15241549989426204,
+      1286.5269461077833
+    ],
+    "interpolated_columns": 56,
+    "isolated_outliers_replaced": 4,
+    "status": "pending user validation",
+    "points": 1290,
+    "source_sha256": "cbcd73b0aa47c13b4de7272f41822cea6f52ea08a719190c7b46abe4bc39f877"
+  },
+  {
+    "file": "eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso.csv",
+    "figure": 5,
+    "identity": "VVV_cationic_solvent_unspecified_raman_iso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded. Caption allows H2O or D2O without assigning panels; solvent left unresolved.",
+    "baseline_pixel": 1987.1041666666667,
+    "normalization_scale_pixels": 861.6041666666667,
+    "pixel_to_wavenumber": [
+      0.15241549989426204,
+      1286.5269461077833
+    ],
+    "interpolated_columns": 48,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1274,
+    "source_sha256": "cbcd73b0aa47c13b4de7272f41822cea6f52ea08a719190c7b46abe4bc39f877"
+  },
+  {
+    "file": "eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso.csv",
+    "figure": 5,
+    "identity": "VVV_cationic_solvent_unspecified_raman_aniso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded. Caption allows H2O or D2O without assigning panels; solvent left unresolved.",
+    "baseline_pixel": 2949.2395833333335,
+    "normalization_scale_pixels": 918.2395833333335,
+    "pixel_to_wavenumber": [
+      0.15241549989426204,
+      1286.5269461077833
+    ],
+    "interpolated_columns": 22,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1290,
+    "source_sha256": "cbcd73b0aa47c13b4de7272f41822cea6f52ea08a719190c7b46abe4bc39f877"
+  },
+  {
+    "file": "eker2002_fig13_KKK_acid_pD1_D2O_ir.csv",
+    "figure": 13,
+    "identity": "KKK_acid_pD1_D2O_ir",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded.",
+    "baseline_pixel": 1543.493,
+    "normalization_scale_pixels": 1129.993,
+    "pixel_to_wavenumber": [
+      0.15551946936953265,
+      1477.4131274131278
+    ],
+    "interpolated_columns": 55,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1257,
+    "source_sha256": "4a7160347ffffca93f89850e76a1abc501b37914fa9a1dd06541596d335d4210"
+  },
+  {
+    "file": "eker2002_fig13_KKK_acid_pD1_D2O_raman_iso.csv",
+    "figure": 13,
+    "identity": "KKK_acid_pD1_D2O_raman_iso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded.",
+    "baseline_pixel": 3037.356,
+    "normalization_scale_pixels": 1257.8560000000002,
+    "pixel_to_wavenumber": [
+      0.15551946936953265,
+      1477.4131274131278
+    ],
+    "interpolated_columns": 46,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1257,
+    "source_sha256": "4a7160347ffffca93f89850e76a1abc501b37914fa9a1dd06541596d335d4210"
+  },
+  {
+    "file": "eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso.csv",
+    "figure": 13,
+    "identity": "KKK_acid_pD1_D2O_raman_aniso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded.",
+    "baseline_pixel": 4476.626,
+    "normalization_scale_pixels": 1083.1260000000002,
+    "pixel_to_wavenumber": [
+      0.15551946936953265,
+      1477.4131274131278
+    ],
+    "interpolated_columns": 57,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1257,
+    "source_sha256": "4a7160347ffffca93f89850e76a1abc501b37914fa9a1dd06541596d335d4210"
+  },
+  {
+    "file": "eker2002_fig13_KKK_neutral_pD7_D2O_ir.csv",
+    "figure": 13,
+    "identity": "KKK_neutral_pD7_D2O_ir",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded.",
+    "baseline_pixel": 1543.493,
+    "normalization_scale_pixels": 1400.993,
+    "pixel_to_wavenumber": [
+      0.19290968662216984,
+      1161.8773946360152
+    ],
+    "interpolated_columns": 56,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 977,
+    "source_sha256": "4a7160347ffffca93f89850e76a1abc501b37914fa9a1dd06541596d335d4210"
+  },
+  {
+    "file": "eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso.csv",
+    "figure": 13,
+    "identity": "KKK_neutral_pD7_D2O_raman_iso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded.",
+    "baseline_pixel": 3037.356,
+    "normalization_scale_pixels": 972.8560000000002,
+    "pixel_to_wavenumber": [
+      0.19290968662216984,
+      1161.8773946360152
+    ],
+    "interpolated_columns": 78,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1024,
+    "source_sha256": "4a7160347ffffca93f89850e76a1abc501b37914fa9a1dd06541596d335d4210"
+  },
+  {
+    "file": "eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso.csv",
+    "figure": 13,
+    "identity": "KKK_neutral_pD7_D2O_raman_aniso",
+    "notes": "Main observed profile; experimental points and total fit overlap. Individual components excluded.",
+    "baseline_pixel": 4476.626,
+    "normalization_scale_pixels": 989.1260000000002,
+    "pixel_to_wavenumber": [
+      0.19290968662216984,
+      1161.8773946360152
+    ],
+    "interpolated_columns": 87,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 1267,
+    "source_sha256": "4a7160347ffffca93f89850e76a1abc501b37914fa9a1dd06541596d335d4210"
+  },
+  {
+    "file": "eker2002_fig10_SSS_anionic_D2O_ir.csv",
+    "figure": 10,
+    "identity": "SSS_anionic_D2O_ir",
+    "notes": "Main observed profile; experimental markers and total fit overlap.",
+    "baseline_pixel": 1060.79,
+    "normalization_scale_pixels": 624.29,
+    "pixel_to_wavenumber": [
+      0.08214061159446326,
+      1511.4100185528757
+    ],
+    "interpolated_columns": 41,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2409,
+    "source_sha256": "6d6a977e564cd9321abe75d3336165079d36c4a81b3094b0597aef80ca1c79a7"
+  },
+  {
+    "file": "eker2002_fig10_SSS_anionic_D2O_raman_iso.csv",
+    "figure": 10,
+    "identity": "SSS_anionic_D2O_raman_iso",
+    "notes": "Main observed profile; experimental markers and total fit overlap.",
+    "baseline_pixel": 2103.524,
+    "normalization_scale_pixels": 806.0239999999999,
+    "pixel_to_wavenumber": [
+      0.08214061159446326,
+      1511.4100185528757
+    ],
+    "interpolated_columns": 49,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2409,
+    "source_sha256": "6d6a977e564cd9321abe75d3336165079d36c4a81b3094b0597aef80ca1c79a7"
+  },
+  {
+    "file": "eker2002_fig10_SSS_anionic_D2O_raman_aniso.csv",
+    "figure": 10,
+    "identity": "SSS_anionic_D2O_raman_aniso",
+    "notes": "Main observed profile; experimental markers and total fit overlap.",
+    "baseline_pixel": 3146.2580000000003,
+    "normalization_scale_pixels": 575.2580000000003,
+    "pixel_to_wavenumber": [
+      0.08214061159446326,
+      1511.4100185528757
+    ],
+    "interpolated_columns": 41,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2409,
+    "source_sha256": "6d6a977e564cd9321abe75d3336165079d36c4a81b3094b0597aef80ca1c79a7"
+  },
+  {
+    "file": "eker2002_fig10_SSS_anionic_D2O_vcd.csv",
+    "figure": 10,
+    "identity": "SSS_anionic_D2O_vcd",
+    "notes": "Main observed profile; experimental markers and total fit overlap.",
+    "baseline_pixel": 3674.396,
+    "normalization_scale_pixels": 454.6039999999998,
+    "pixel_to_wavenumber": [
+      0.08214061159446326,
+      1511.4100185528757
+    ],
+    "interpolated_columns": 41,
+    "isolated_outliers_replaced": 0,
+    "status": "pending user validation",
+    "points": 2409,
+    "source_sha256": "6d6a977e564cd9321abe75d3336165079d36c4a81b3094b0597aef80ca1c79a7"
+  },
+  {
+    "file": "eker2002_fig9_VVV_cationic_H2O_raman_iso.csv",
+    "figure": 9,
+    "identity": "VVV_cationic_H2O_raman_iso",
+    "notes": "Only VVV is plotted; AAA is an annotated peak position, not a second spectrum.",
+    "baseline_pixel": 1633.3353941267387,
+    "normalization_scale_pixels": 1154.3353941267387,
+    "pixel_to_wavenumber": [
+      0.10594174263572452,
+      1153.0201342281887
+    ],
+    "interpolated_columns": 16,
+    "isolated_outliers_replaced": 6,
+    "status": "pending user validation",
+    "points": 2047,
+    "source_sha256": "f2a4fe7a60e3eeb1800dd4b952caba89aed186faf447547023ed79d898525cb6"
+  },
+  {
+    "file": "eker2002_fig16_KKK_acid_H2O_raman_iso.csv",
+    "figure": 16,
+    "identity": "KKK_acid_H2O_raman_iso",
+    "notes": "",
+    "baseline_pixel": 651.509778357236,
+    "normalization_scale_pixels": 303.009778357236,
+    "pixel_to_wavenumber": [
+      0.4048378118516267,
+      1134.285714285714
+    ],
+    "interpolated_columns": 8,
+    "isolated_outliers_replaced": 5,
+    "status": "pending user validation",
+    "points": 731,
+    "source_sha256": "32b967eb16c1faaf3c382c9e5a3ef6068c8bdcfc012f2bc870409843b837bba2"
+  },
+  {
+    "file": "eker2002_fig16_AAA_acid_H2O_raman_iso.csv",
+    "figure": 16,
+    "identity": "AAA_acid_H2O_raman_iso",
+    "notes": "",
+    "baseline_pixel": 651.509778357236,
+    "normalization_scale_pixels": 466.009778357236,
+    "pixel_to_wavenumber": [
+      0.4048378118516267,
+      1134.285714285714
+    ],
+    "interpolated_columns": 0,
+    "isolated_outliers_replaced": 6,
+    "status": "pending user validation",
+    "points": 731,
+    "source_sha256": "32b967eb16c1faaf3c382c9e5a3ef6068c8bdcfc012f2bc870409843b837bba2"
+  }
+]

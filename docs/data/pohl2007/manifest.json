@@ -1,0 +1,552 @@
+[
+  {
+    "file": "pohl2007_fig2a_ir_dcm.csv",
+    "figure": 2,
+    "panel": "a",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "dcm",
+    "source_page": 4,
+    "baseline_pixel": 415.0,
+    "scale_pixels": 394.5,
+    "pixel_to_wavenumber": [
+      -0.188893005635248,
+      1754.2122498006156
+    ],
+    "range_cm1": [
+      1466.3393092124977,
+      1738.9119163441605
+    ],
+    "interpolated_columns": 0,
+    "points": 1444,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig2b_ir_dmso.csv",
+    "figure": 2,
+    "panel": "b",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "dmso",
+    "source_page": 4,
+    "baseline_pixel": 833.0,
+    "scale_pixels": 365.0,
+    "pixel_to_wavenumber": [
+      -0.188893005635248,
+      1754.2122498006156
+    ],
+    "range_cm1": [
+      1466.3393092124977,
+      1738.9119163441605
+    ],
+    "interpolated_columns": 0,
+    "points": 1444,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig2c_ir_kr_matrix.csv",
+    "figure": 2,
+    "panel": "c",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "kr_matrix",
+    "source_page": 4,
+    "baseline_pixel": 1246.0,
+    "scale_pixels": 350.5,
+    "pixel_to_wavenumber": [
+      -0.188893005635248,
+      1754.2122498006156
+    ],
+    "range_cm1": [
+      1466.3393092124977,
+      1738.9119163441605
+    ],
+    "interpolated_columns": 0,
+    "points": 1444,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig2d_ir_ar_matrix.csv",
+    "figure": 2,
+    "panel": "d",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "ar_matrix",
+    "source_page": 4,
+    "baseline_pixel": 1668.0,
+    "scale_pixels": 323.0,
+    "pixel_to_wavenumber": [
+      -0.188893005635248,
+      1754.2122498006156
+    ],
+    "range_cm1": [
+      1466.3393092124977,
+      1738.9119163441605
+    ],
+    "interpolated_columns": 0,
+    "points": 1444,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig2e_ir_dft_total.csv",
+    "figure": 2,
+    "panel": "e",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "dft_total",
+    "source_page": 4,
+    "baseline_pixel": 2079.5,
+    "scale_pixels": 353.5,
+    "pixel_to_wavenumber": [
+      -0.188893005635248,
+      1754.2122498006156
+    ],
+    "range_cm1": [
+      1466.3393092124977,
+      1738.9119163441605
+    ],
+    "interpolated_columns": 0,
+    "points": 1444,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig3a_ir_dcm.csv",
+    "figure": 3,
+    "panel": "a",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "dcm",
+    "source_page": 5,
+    "baseline_pixel": 414.0,
+    "scale_pixels": 372.5,
+    "pixel_to_wavenumber": [
+      -0.2569701247880016,
+      3543.4663826997676
+    ],
+    "range_cm1": [
+      3151.8439125228533,
+      3523.1657428415156
+    ],
+    "interpolated_columns": 0,
+    "points": 1446,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig3b_ir_dmso.csv",
+    "figure": 3,
+    "panel": "b",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "dmso",
+    "source_page": 5,
+    "baseline_pixel": 843.0,
+    "scale_pixels": 336.5,
+    "pixel_to_wavenumber": [
+      -0.2569701247880016,
+      3543.4663826997676
+    ],
+    "range_cm1": [
+      3151.8439125228533,
+      3523.1657428415156
+    ],
+    "interpolated_columns": 0,
+    "points": 1446,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig3c_ir_kr_matrix.csv",
+    "figure": 3,
+    "panel": "c",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "kr_matrix",
+    "source_page": 5,
+    "baseline_pixel": 1272.0,
+    "scale_pixels": 372.5,
+    "pixel_to_wavenumber": [
+      -0.2569701247880016,
+      3543.4663826997676
+    ],
+    "range_cm1": [
+      3151.8439125228533,
+      3523.1657428415156
+    ],
+    "interpolated_columns": 0,
+    "points": 1446,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig3d_ir_ar_matrix.csv",
+    "figure": 3,
+    "panel": "d",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "ar_matrix",
+    "source_page": 5,
+    "baseline_pixel": 1702.5,
+    "scale_pixels": 361.5,
+    "pixel_to_wavenumber": [
+      -0.2569701247880016,
+      3543.4663826997676
+    ],
+    "range_cm1": [
+      3151.8439125228533,
+      3523.1657428415156
+    ],
+    "interpolated_columns": 0,
+    "points": 1446,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig3e_ir_dft_total.csv",
+    "figure": 3,
+    "panel": "e",
+    "molecule": "Ac-Gly-NHMe",
+    "observable": "ir",
+    "environment": "dft_total",
+    "source_page": 5,
+    "baseline_pixel": 2023.0,
+    "scale_pixels": 258.0,
+    "pixel_to_wavenumber": [
+      -0.2569701247880016,
+      3543.4663826997676
+    ],
+    "range_cm1": [
+      3151.8439125228533,
+      3523.1657428415156
+    ],
+    "interpolated_columns": 0,
+    "points": 1446,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig5a_ir_dcm.csv",
+    "figure": 5,
+    "panel": "a",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "dcm",
+    "source_page": 7,
+    "baseline_pixel": 415.5,
+    "scale_pixels": 371.0,
+    "pixel_to_wavenumber": [
+      -0.18860804558807936,
+      1753.923026004431
+    ],
+    "range_cm1": [
+      1466.484364528198,
+      1738.4571662662086
+    ],
+    "interpolated_columns": 0,
+    "points": 1443,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig5b_ir_dmso.csv",
+    "figure": 5,
+    "panel": "b",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "dmso",
+    "source_page": 7,
+    "baseline_pixel": 848.5,
+    "scale_pixels": 377.5,
+    "pixel_to_wavenumber": [
+      -0.18860804558807936,
+      1753.923026004431
+    ],
+    "range_cm1": [
+      1466.484364528198,
+      1738.4571662662086
+    ],
+    "interpolated_columns": 0,
+    "points": 1443,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig5c_ir_kr_matrix.csv",
+    "figure": 5,
+    "panel": "c",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "kr_matrix",
+    "source_page": 7,
+    "baseline_pixel": 1267.0,
+    "scale_pixels": 330.5,
+    "pixel_to_wavenumber": [
+      -0.18860804558807936,
+      1753.923026004431
+    ],
+    "range_cm1": [
+      1466.484364528198,
+      1738.4571662662086
+    ],
+    "interpolated_columns": 0,
+    "points": 1443,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig5d_ir_ar_matrix.csv",
+    "figure": 5,
+    "panel": "d",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "ar_matrix",
+    "source_page": 7,
+    "baseline_pixel": 1692.0,
+    "scale_pixels": 369.5,
+    "pixel_to_wavenumber": [
+      -0.18860804558807936,
+      1753.923026004431
+    ],
+    "range_cm1": [
+      1466.484364528198,
+      1738.4571662662086
+    ],
+    "interpolated_columns": 0,
+    "points": 1443,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig5e_ir_dft_total.csv",
+    "figure": 5,
+    "panel": "e",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "dft_total",
+    "source_page": 7,
+    "baseline_pixel": 2076.0,
+    "scale_pixels": 249.5,
+    "pixel_to_wavenumber": [
+      -0.18860804558807936,
+      1753.923026004431
+    ],
+    "range_cm1": [
+      1466.484364528198,
+      1738.4571662662086
+    ],
+    "interpolated_columns": 0,
+    "points": 1443,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig6a_ir_dcm.csv",
+    "figure": 6,
+    "panel": "a",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "dcm",
+    "source_page": 8,
+    "baseline_pixel": 400.0,
+    "scale_pixels": 330.0,
+    "pixel_to_wavenumber": [
+      -0.25923512533463877,
+      3546.9862908636587
+    ],
+    "range_cm1": [
+      3151.911959853669,
+      3522.6181890822027
+    ],
+    "interpolated_columns": 0,
+    "points": 1431,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig6b_ir_dmso.csv",
+    "figure": 6,
+    "panel": "b",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "dmso",
+    "source_page": 8,
+    "baseline_pixel": 837.0,
+    "scale_pixels": 369.5,
+    "pixel_to_wavenumber": [
+      -0.25923512533463877,
+      3546.9862908636587
+    ],
+    "range_cm1": [
+      3151.911959853669,
+      3508.619492314132
+    ],
+    "interpolated_columns": 0,
+    "points": 1377,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig6c_ir_kr_matrix.csv",
+    "figure": 6,
+    "panel": "c",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "kr_matrix",
+    "source_page": 8,
+    "baseline_pixel": 1255.0,
+    "scale_pixels": 386.0,
+    "pixel_to_wavenumber": [
+      -0.25923512533463877,
+      3546.9862908636587
+    ],
+    "range_cm1": [
+      3151.911959853669,
+      3522.6181890822027
+    ],
+    "interpolated_columns": 0,
+    "points": 1431,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig6d_ir_ar_matrix.csv",
+    "figure": 6,
+    "panel": "d",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "ar_matrix",
+    "source_page": 8,
+    "baseline_pixel": 1667.5,
+    "scale_pixels": 369.5,
+    "pixel_to_wavenumber": [
+      -0.25923512533463877,
+      3546.9862908636587
+    ],
+    "range_cm1": [
+      3151.911959853669,
+      3522.6181890822027
+    ],
+    "interpolated_columns": 0,
+    "points": 1431,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig6e_ir_dft_total.csv",
+    "figure": 6,
+    "panel": "e",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "ir",
+    "environment": "dft_total",
+    "source_page": 8,
+    "baseline_pixel": 2011.0,
+    "scale_pixels": 279.0,
+    "pixel_to_wavenumber": [
+      -0.25923512533463877,
+      3546.9862908636587
+    ],
+    "range_cm1": [
+      3151.911959853669,
+      3522.6181890822027
+    ],
+    "interpolated_columns": 0,
+    "points": 1431,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig7a_vcd_dcm.csv",
+    "figure": 7,
+    "panel": "a",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "vcd",
+    "environment": "dcm",
+    "source_page": 9,
+    "baseline_pixel": 156.5,
+    "scale_pixels": 263.0,
+    "pixel_to_wavenumber": [
+      -0.1954268662024489,
+      1764.1390249234364
+    ],
+    "range_cm1": [
+      1479.7929345988732,
+      1738.5381054509155
+    ],
+    "interpolated_columns": 50,
+    "points": 1325,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig7b_vcd_dmso.csv",
+    "figure": 7,
+    "panel": "b",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "vcd",
+    "environment": "dmso",
+    "source_page": 9,
+    "baseline_pixel": 642.0,
+    "scale_pixels": 218.5,
+    "pixel_to_wavenumber": [
+      -0.1954268662024489,
+      1764.1390249234364
+    ],
+    "range_cm1": [
+      1466.3084808309043,
+      1733.2615800634494
+    ],
+    "interpolated_columns": 27,
+    "points": 1367,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig7c_vcd_kr_matrix.csv",
+    "figure": 7,
+    "panel": "c",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "vcd",
+    "environment": "kr_matrix",
+    "source_page": 9,
+    "baseline_pixel": 1057.5,
+    "scale_pixels": 280.0,
+    "pixel_to_wavenumber": [
+      -0.1954268662024489,
+      1764.1390249234364
+    ],
+    "range_cm1": [
+      1466.699334563309,
+      1738.5381054509155
+    ],
+    "interpolated_columns": 54,
+    "points": 1392,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig7d_vcd_ar_matrix.csv",
+    "figure": 7,
+    "panel": "d",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "vcd",
+    "environment": "ar_matrix",
+    "source_page": 9,
+    "baseline_pixel": 1587.0,
+    "scale_pixels": 184.5,
+    "pixel_to_wavenumber": [
+      -0.1954268662024489,
+      1764.1390249234364
+    ],
+    "range_cm1": [
+      1466.3084808309043,
+      1738.5381054509155
+    ],
+    "interpolated_columns": 34,
+    "points": 1394,
+    "status": "pending user validation"
+  },
+  {
+    "file": "pohl2007_fig7e_vcd_dft_total.csv",
+    "figure": 7,
+    "panel": "e",
+    "molecule": "Ac-L-Ala-NHMe",
+    "observable": "vcd",
+    "environment": "dft_total",
+    "source_page": 9,
+    "baseline_pixel": 1998.0,
+    "scale_pixels": 253.5,
+    "pixel_to_wavenumber": [
+      -0.1954268662024489,
+      1764.1390249234364
+    ],
+    "range_cm1": [
+      1467.2856151619167,
+      1738.5381054509155
+    ],
+    "interpolated_columns": 246,
+    "points": 1389,
+    "status": "pending user validation"
+  }
+]
