@@ -1,0 +1,300 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EFieldPhysNet predictions · Tripeptide Spectra Atlas</title><link rel="stylesheet" href="style.css">
+<style>table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{font-size:11px;letter-spacing:.08em;color:var(--muted)}td img{width:150px;height:auto;display:block;border:1px solid var(--line);border-radius:4px}.tablewrap{overflow-x:auto;background:white;border:1px solid var(--line);border-radius:8px;padding:6px 12px}td:nth-child(n+3):nth-child(-n+6){font-variant-numeric:tabular-nums;white-space:nowrap}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}.gallery figure{margin:0;background:white;border:1px solid var(--line);border-radius:8px;padding:14px}.gallery img{width:100%;height:auto}figcaption{font-size:13px;color:var(--muted);margin-top:8px}.small{font-size:13px;color:var(--muted)}dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;font-size:13px}dt{font-weight:650}dd{margin:0;overflow-wrap:anywhere}@media(max-width:700px){dl{grid-template-columns:1fr}}</style></head>
+<body><header><a class="brand" href="./">SPECTRA / ATLAS</a><nav><a href="./#explore">Explore</a><a href="./#review">Validate</a><a href="results.html">Predictions</a><a href="https://github.com/EricBoittier/tripeptide-spectra-atlas">GitHub ↗</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">EFIELDPHYSNET · ML/MM HARMONIC PREDICTIONS · RUN efieldphysnet_mlmm_20261012</div><h1>Model against<br>the digitized traces.</h1>
+<p class="intro">65 published profiles compared with harmonic IR, Raman and VCD from EFieldPhysNet (rw_neutral) peptides minimised inside CHARMM36 solvent spheres with the measured charge states and counter-ions. Overlays, CSVs on the reference grids, raw stick spectra and provenance are all here; the atlas viewer can overlay each prediction with one click.</p>
+<div class="actions"><a class="button" href="results/efieldphysnet_mlmm_20261012/run.json">run.json (provenance) ↓</a><a class="secondary" href="results/efieldphysnet_mlmm_20261012/metrics.json">metrics.json →</a><a class="secondary" href="results/efieldphysnet_mlmm_20261012/README.md">README →</a></div>
+<div class="stats"><div><strong>65</strong>reference traces</div><div><strong>44</strong>conformer minima (22 systems)</div><div><strong>0.81</strong>median r, isotropic Raman</div><div><strong>47 %</strong>median VCD sign agreement</div></div></section>
+
+<section><div class="eyebrow">01 / SUMMARY</div><h2>Agreement by observable</h2>
+<div class="tablewrap"><table><thead><tr><th>Observable</th><th>n</th><th>median r (unscaled)</th><th>median best uniform scale</th><th>median r (scaled)</th><th>median VCD sign agreement</th></tr></thead><tbody><tr><td>IR</td><td>33</td><td>-0.34</td><td>0.945</td><td>0.68</td><td></td></tr>
+<tr><td>Raman iso.</td><td>10</td><td>-0.32</td><td>0.915</td><td>0.81</td><td></td></tr>
+<tr><td>Raman aniso.</td><td>7</td><td>-0.49</td><td>0.912</td><td>0.80</td><td></td></tr>
+<tr><td>VCD</td><td>15</td><td>-0.03</td><td>0.930</td><td>0.35</td><td>47 %</td></tr></tbody></table></div>
+<p class="small">r is the Pearson correlation between the digitised trace and the broadened prediction (Lorentzian HWHM 10 cm⁻¹) on the trace's own grid, both independently normalised. The uniform scale is scanned from 0.88 to 1.02 and the maximum reported; the unscaled files carry no scaling. Equal conformer weights (two minima per system). VCD uses charges-only atomic axial tensors, so sign agreement is the honest number there.</p>
+<p class="small">Generated 2026-10-12 from checkpoint sha256 fd4f096cb7b144ff… at code commit 9abb65735c7c.</p></section>
+
+<section><div class="eyebrow">02 / EKER 2002 · D₂O, MEASURED CHARGE STATES</div><h2>Uncapped tripeptides</h2>
+<div class="tablewrap"><table><thead><tr><th>Overlay</th><th>Reference</th><th>r unscaled</th><th>scale</th><th>r scaled</th><th>VCD sign</th><th>per conformer r</th><th>Files</th></tr></thead><tbody><tr><td><a href="overlays/eker2002_fig3_AAA_anionic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig3_AAA_anionic_D2O_ir.png" alt="overlay eker2002_fig3_AAA_anionic_D2O_ir"></a></td>
+<td><strong>AAA · anionic · D2O · ir</strong><br><small>eker2002_fig3_AAA_anionic_D2O_ir · fig 3</small><br><small>AAA_an / D / IR</small></td>
+<td>-0.28</td><td>0.892</td><td>0.46</td><td></td><td><small>PPII 0.44, beta 0.32</small></td>
+<td><a href="predictions/eker2002_fig3_AAA_anionic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig3_AAA_anionic_D2O_ir__efieldphysnet_scaled0.8950.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig3_AAA_anionic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig3_AAA_anionic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig3_AAA_anionic_D2O_vcd.png" alt="overlay eker2002_fig3_AAA_anionic_D2O_vcd"></a></td>
+<td><strong>AAA · anionic · D2O · vcd</strong><br><small>eker2002_fig3_AAA_anionic_D2O_vcd · fig 3</small><br><small>AAA_an / D / VCD</small></td>
+<td>-0.02</td><td>0.930</td><td>0.57</td><td>46 %</td><td><small>PPII 0.42, beta 0.41</small></td>
+<td><a href="predictions/eker2002_fig3_AAA_anionic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig3_AAA_anionic_D2O_vcd__efieldphysnet_scaled0.9325.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig3_AAA_anionic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig3_AAA_cationic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig3_AAA_cationic_D2O_ir.png" alt="overlay eker2002_fig3_AAA_cationic_D2O_ir"></a></td>
+<td><strong>AAA · cationic · D2O · ir</strong><br><small>eker2002_fig3_AAA_cationic_D2O_ir · fig 3</small><br><small>AAA_cat / D / IR</small></td>
+<td>-0.00</td><td>0.960</td><td>0.59</td><td></td><td><small>PPII 0.52, beta 0.59</small></td>
+<td><a href="predictions/eker2002_fig3_AAA_cationic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig3_AAA_cationic_D2O_ir__efieldphysnet_scaled0.9600.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig3_AAA_cationic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig16_AAA_acid_H2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig16_AAA_acid_H2O_raman_iso.png" alt="overlay eker2002_fig16_AAA_acid_H2O_raman_iso"></a></td>
+<td><strong>AAA · acid · H2O · raman · iso</strong><br><small>eker2002_fig16_AAA_acid_H2O_raman_iso · fig 16</small><br><small>AAA_cat / H / Raman iso.</small></td>
+<td>-0.40</td><td>0.880</td><td>0.44</td><td></td><td><small>PPII 0.20, beta 0.71</small></td>
+<td><a href="predictions/eker2002_fig16_AAA_acid_H2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig16_AAA_acid_H2O_raman_iso__efieldphysnet_scaled0.9150.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig16_AAA_acid_H2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig3_AAA_cationic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig3_AAA_cationic_D2O_vcd.png" alt="overlay eker2002_fig3_AAA_cationic_D2O_vcd"></a></td>
+<td><strong>AAA · cationic · D2O · vcd</strong><br><small>eker2002_fig3_AAA_cationic_D2O_vcd · fig 3</small><br><small>AAA_cat / D / VCD</small></td>
+<td>-0.10</td><td>0.942</td><td>0.23</td><td>72 %</td><td><small>PPII -0.06, beta 0.33</small></td>
+<td><a href="predictions/eker2002_fig3_AAA_cationic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig3_AAA_cationic_D2O_vcd__efieldphysnet_scaled0.9425.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig3_AAA_cationic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig1_AAA_zwitterion_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig1_AAA_zwitterion_D2O_ir.png" alt="overlay eker2002_fig1_AAA_zwitterion_D2O_ir"></a></td>
+<td><strong>AAA · zwitterion · D2O · ir</strong><br><small>eker2002_fig1_AAA_zwitterion_D2O_ir · fig 1</small><br><small>AAA_zw / D / IR</small></td>
+<td>-0.60</td><td>0.902</td><td>0.67</td><td></td><td><small>PPII 0.59, beta 0.66</small></td>
+<td><a href="predictions/eker2002_fig1_AAA_zwitterion_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig1_AAA_zwitterion_D2O_ir__efieldphysnet_scaled0.9300.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig1_AAA_zwitterion_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig3_AAA_zwitterion_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig3_AAA_zwitterion_D2O_ir.png" alt="overlay eker2002_fig3_AAA_zwitterion_D2O_ir"></a></td>
+<td><strong>AAA · zwitterion · D2O · ir</strong><br><small>eker2002_fig3_AAA_zwitterion_D2O_ir · fig 3</small><br><small>AAA_zw / D / IR</small></td>
+<td>-0.37</td><td>0.902</td><td>0.47</td><td></td><td><small>PPII 0.45, beta 0.42</small></td>
+<td><a href="predictions/eker2002_fig3_AAA_zwitterion_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig3_AAA_zwitterion_D2O_ir__efieldphysnet_scaled0.9300.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig3_AAA_zwitterion_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig1_AAA_zwitterion_D2O_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig1_AAA_zwitterion_D2O_raman_aniso.png" alt="overlay eker2002_fig1_AAA_zwitterion_D2O_raman_aniso"></a></td>
+<td><strong>AAA · zwitterion · D2O · raman · aniso</strong><br><small>eker2002_fig1_AAA_zwitterion_D2O_raman_aniso · fig 1</small><br><small>AAA_zw / D / Raman aniso.</small></td>
+<td>-0.51</td><td>0.907</td><td>0.80</td><td></td><td><small>PPII 0.67, beta 0.78</small></td>
+<td><a href="predictions/eker2002_fig1_AAA_zwitterion_D2O_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig1_AAA_zwitterion_D2O_raman_aniso__efieldphysnet_scaled0.9725.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig1_AAA_zwitterion_D2O_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig1_AAA_zwitterion_D2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig1_AAA_zwitterion_D2O_raman_iso.png" alt="overlay eker2002_fig1_AAA_zwitterion_D2O_raman_iso"></a></td>
+<td><strong>AAA · zwitterion · D2O · raman · iso</strong><br><small>eker2002_fig1_AAA_zwitterion_D2O_raman_iso · fig 1</small><br><small>AAA_zw / D / Raman iso.</small></td>
+<td>-0.24</td><td>0.910</td><td>0.71</td><td></td><td><small>PPII -0.07, beta 0.90</small></td>
+<td><a href="predictions/eker2002_fig1_AAA_zwitterion_D2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig1_AAA_zwitterion_D2O_raman_iso__efieldphysnet_scaled0.9350.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig1_AAA_zwitterion_D2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig3_AAA_zwitterion_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig3_AAA_zwitterion_D2O_vcd.png" alt="overlay eker2002_fig3_AAA_zwitterion_D2O_vcd"></a></td>
+<td><strong>AAA · zwitterion · D2O · vcd</strong><br><small>eker2002_fig3_AAA_zwitterion_D2O_vcd · fig 3</small><br><small>AAA_zw / D / VCD</small></td>
+<td>-0.04</td><td>0.945</td><td>0.23</td><td>46 %</td><td><small>PPII 0.06, beta 0.25</small></td>
+<td><a href="predictions/eker2002_fig3_AAA_zwitterion_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig3_AAA_zwitterion_D2O_vcd__efieldphysnet_scaled0.9475.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig3_AAA_zwitterion_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig1_A_DA_A_zwitterion_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig1_A_DA_A_zwitterion_D2O_ir.png" alt="overlay eker2002_fig1_A_DA_A_zwitterion_D2O_ir"></a></td>
+<td><strong>A · DA · A · zwitterion · D2O · ir</strong><br><small>eker2002_fig1_A_DA_A_zwitterion_D2O_ir · fig 1</small><br><small>ADA_zw / D / IR</small></td>
+<td>-0.65</td><td>0.900</td><td>0.55</td><td></td><td><small>PPII 0.57, beta 0.47</small></td>
+<td><a href="predictions/eker2002_fig1_A_DA_A_zwitterion_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig1_A_DA_A_zwitterion_D2O_ir__efieldphysnet_scaled0.9000.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig1_A_DA_A_zwitterion_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso.png" alt="overlay eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso"></a></td>
+<td><strong>A · DA · A · zwitterion · D2O · raman · aniso</strong><br><small>eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso · fig 1</small><br><small>ADA_zw / D / Raman aniso.</small></td>
+<td>-0.64</td><td>0.907</td><td>0.74</td><td></td><td><small>PPII 0.70, beta 0.75</small></td>
+<td><a href="predictions/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso__efieldphysnet_scaled0.9075.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso.png" alt="overlay eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso"></a></td>
+<td><strong>A · DA · A · zwitterion · D2O · raman · iso</strong><br><small>eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso · fig 1</small><br><small>ADA_zw / D / Raman iso.</small></td>
+<td>-0.34</td><td>0.937</td><td>0.87</td><td></td><td><small>PPII 0.92, beta -0.11</small></td>
+<td><a href="predictions/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso__efieldphysnet_scaled0.9375.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig13_KKK_acid_pD1_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig13_KKK_acid_pD1_D2O_ir.png" alt="overlay eker2002_fig13_KKK_acid_pD1_D2O_ir"></a></td>
+<td><strong>KKK · acid · pD1 · D2O · ir</strong><br><small>eker2002_fig13_KKK_acid_pD1_D2O_ir · fig 13</small><br><small>KKK_pD1 / D / IR</small></td>
+<td>0.32</td><td>0.977</td><td>0.76</td><td></td><td><small>PPII 0.80, beta 0.60</small></td>
+<td><a href="predictions/eker2002_fig13_KKK_acid_pD1_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig13_KKK_acid_pD1_D2O_ir__efieldphysnet_scaled0.9775.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig13_KKK_acid_pD1_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig14_KKK_acidic_label_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig14_KKK_acidic_label_D2O_ir.png" alt="overlay eker2002_fig14_KKK_acidic_label_D2O_ir"></a></td>
+<td><strong>KKK · acidic · label · D2O · ir</strong><br><small>eker2002_fig14_KKK_acidic_label_D2O_ir · fig 14</small><br><small>KKK_pD1 / D / IR</small></td>
+<td>0.19</td><td>0.977</td><td>0.74</td><td></td><td><small>PPII 0.83, beta 0.41</small></td>
+<td><a href="predictions/eker2002_fig14_KKK_acidic_label_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig14_KKK_acidic_label_D2O_ir__efieldphysnet_scaled0.9775.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig14_KKK_acidic_label_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso.png" alt="overlay eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso"></a></td>
+<td><strong>KKK · acid · pD1 · D2O · raman · aniso</strong><br><small>eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso · fig 13</small><br><small>KKK_pD1 / D / Raman aniso.</small></td>
+<td>0.25</td><td>0.980</td><td>0.80</td><td></td><td><small>PPII 0.83, beta 0.63</small></td>
+<td><a href="predictions/eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso__efieldphysnet_scaled0.9800.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig13_KKK_acid_pD1_D2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig13_KKK_acid_pD1_D2O_raman_iso.png" alt="overlay eker2002_fig13_KKK_acid_pD1_D2O_raman_iso"></a></td>
+<td><strong>KKK · acid · pD1 · D2O · raman · iso</strong><br><small>eker2002_fig13_KKK_acid_pD1_D2O_raman_iso · fig 13</small><br><small>KKK_pD1 / D / Raman iso.</small></td>
+<td>0.36</td><td>0.980</td><td>0.86</td><td></td><td><small>PPII 0.93, beta 0.73</small></td>
+<td><a href="predictions/eker2002_fig13_KKK_acid_pD1_D2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig13_KKK_acid_pD1_D2O_raman_iso__efieldphysnet_scaled0.9800.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig13_KKK_acid_pD1_D2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig16_KKK_acid_H2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig16_KKK_acid_H2O_raman_iso.png" alt="overlay eker2002_fig16_KKK_acid_H2O_raman_iso"></a></td>
+<td><strong>KKK · acid · H2O · raman · iso</strong><br><small>eker2002_fig16_KKK_acid_H2O_raman_iso · fig 16</small><br><small>KKK_pD1 / H / Raman iso.</small></td>
+<td>-0.81</td><td>0.880</td><td>0.78</td><td></td><td><small>PPII 0.74, beta 0.73</small></td>
+<td><a href="predictions/eker2002_fig16_KKK_acid_H2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig16_KKK_acid_H2O_raman_iso__efieldphysnet_scaled0.8800.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig16_KKK_acid_H2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig14_KKK_acidic_label_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig14_KKK_acidic_label_D2O_vcd.png" alt="overlay eker2002_fig14_KKK_acidic_label_D2O_vcd"></a></td>
+<td><strong>KKK · acidic · label · D2O · vcd</strong><br><small>eker2002_fig14_KKK_acidic_label_D2O_vcd · fig 14</small><br><small>KKK_pD1 / D / VCD</small></td>
+<td>0.09</td><td>0.880</td><td>0.10</td><td>51 %</td><td><small>PPII 0.11, beta 0.06</small></td>
+<td><a href="predictions/eker2002_fig14_KKK_acidic_label_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig14_KKK_acidic_label_D2O_vcd__efieldphysnet_scaled0.8800.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig14_KKK_acidic_label_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig13_KKK_neutral_pD7_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig13_KKK_neutral_pD7_D2O_ir.png" alt="overlay eker2002_fig13_KKK_neutral_pD7_D2O_ir"></a></td>
+<td><strong>KKK · neutral · pD7 · D2O · ir</strong><br><small>eker2002_fig13_KKK_neutral_pD7_D2O_ir · fig 13</small><br><small>KKK_pD7 / D / IR</small></td>
+<td>-0.35</td><td>0.910</td><td>0.68</td><td></td><td><small>PPII -0.18, beta 0.83</small></td>
+<td><a href="predictions/eker2002_fig13_KKK_neutral_pD7_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig13_KKK_neutral_pD7_D2O_ir__efieldphysnet_scaled0.9100.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig13_KKK_neutral_pD7_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig14_KKK_neutral_label_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig14_KKK_neutral_label_D2O_ir.png" alt="overlay eker2002_fig14_KKK_neutral_label_D2O_ir"></a></td>
+<td><strong>KKK · neutral · label · D2O · ir</strong><br><small>eker2002_fig14_KKK_neutral_label_D2O_ir · fig 14</small><br><small>KKK_pD7 / D / IR</small></td>
+<td>-0.36</td><td>0.907</td><td>0.45</td><td></td><td><small>PPII -0.04, beta 0.65</small></td>
+<td><a href="predictions/eker2002_fig14_KKK_neutral_label_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig14_KKK_neutral_label_D2O_ir__efieldphysnet_scaled0.9075.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig14_KKK_neutral_label_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso.png" alt="overlay eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso"></a></td>
+<td><strong>KKK · neutral · pD7 · D2O · raman · aniso</strong><br><small>eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso · fig 13</small><br><small>KKK_pD7 / D / Raman aniso.</small></td>
+<td>-0.37</td><td>0.912</td><td>0.49</td><td></td><td><small>PPII 0.25, beta 0.41</small></td>
+<td><a href="predictions/eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso__efieldphysnet_scaled0.9125.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso.png" alt="overlay eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso"></a></td>
+<td><strong>KKK · neutral · pD7 · D2O · raman · iso</strong><br><small>eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso · fig 13</small><br><small>KKK_pD7 / D / Raman iso.</small></td>
+<td>-0.30</td><td>0.967</td><td>0.89</td><td></td><td><small>PPII -0.16, beta 0.94</small></td>
+<td><a href="predictions/eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso__efieldphysnet_scaled0.9675.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig14_KKK_neutral_label_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig14_KKK_neutral_label_D2O_vcd.png" alt="overlay eker2002_fig14_KKK_neutral_label_D2O_vcd"></a></td>
+<td><strong>KKK · neutral · label · D2O · vcd</strong><br><small>eker2002_fig14_KKK_neutral_label_D2O_vcd · fig 14</small><br><small>KKK_pD7 / D / VCD</small></td>
+<td>0.04</td><td>0.940</td><td>0.21</td><td>41 %</td><td><small>PPII 0.06, beta 0.25</small></td>
+<td><a href="predictions/eker2002_fig14_KKK_neutral_label_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig14_KKK_neutral_label_D2O_vcd__efieldphysnet_scaled0.9400.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig14_KKK_neutral_label_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig10_SSS_anionic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig10_SSS_anionic_D2O_ir.png" alt="overlay eker2002_fig10_SSS_anionic_D2O_ir"></a></td>
+<td><strong>SSS · anionic · D2O · ir</strong><br><small>eker2002_fig10_SSS_anionic_D2O_ir · fig 10</small><br><small>SSS_an / D / IR</small></td>
+<td>-0.46</td><td>0.912</td><td>0.78</td><td></td><td><small>PPII 0.74, beta 0.71</small></td>
+<td><a href="predictions/eker2002_fig10_SSS_anionic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig10_SSS_anionic_D2O_ir__efieldphysnet_scaled0.9125.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig10_SSS_anionic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig11_SSS_anionic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig11_SSS_anionic_D2O_ir.png" alt="overlay eker2002_fig11_SSS_anionic_D2O_ir"></a></td>
+<td><strong>SSS · anionic · D2O · ir</strong><br><small>eker2002_fig11_SSS_anionic_D2O_ir · fig 11</small><br><small>SSS_an / D / IR</small></td>
+<td>-0.34</td><td>0.912</td><td>0.35</td><td></td><td><small>PPII 0.33, beta 0.33</small></td>
+<td><a href="predictions/eker2002_fig11_SSS_anionic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig11_SSS_anionic_D2O_ir__efieldphysnet_scaled0.9125.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig11_SSS_anionic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig10_SSS_anionic_D2O_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig10_SSS_anionic_D2O_raman_aniso.png" alt="overlay eker2002_fig10_SSS_anionic_D2O_raman_aniso"></a></td>
+<td><strong>SSS · anionic · D2O · raman · aniso</strong><br><small>eker2002_fig10_SSS_anionic_D2O_raman_aniso · fig 10</small><br><small>SSS_an / D / Raman aniso.</small></td>
+<td>-0.49</td><td>0.917</td><td>0.90</td><td></td><td><small>PPII 0.79, beta 0.79</small></td>
+<td><a href="predictions/eker2002_fig10_SSS_anionic_D2O_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig10_SSS_anionic_D2O_raman_aniso__efieldphysnet_scaled0.9175.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig10_SSS_anionic_D2O_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig10_SSS_anionic_D2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig10_SSS_anionic_D2O_raman_iso.png" alt="overlay eker2002_fig10_SSS_anionic_D2O_raman_iso"></a></td>
+<td><strong>SSS · anionic · D2O · raman · iso</strong><br><small>eker2002_fig10_SSS_anionic_D2O_raman_iso · fig 10</small><br><small>SSS_an / D / Raman iso.</small></td>
+<td>-0.38</td><td>0.920</td><td>0.83</td><td></td><td><small>PPII 0.83, beta -0.42</small></td>
+<td><a href="predictions/eker2002_fig10_SSS_anionic_D2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig10_SSS_anionic_D2O_raman_iso__efieldphysnet_scaled0.9200.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig10_SSS_anionic_D2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig10_SSS_anionic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig10_SSS_anionic_D2O_vcd.png" alt="overlay eker2002_fig10_SSS_anionic_D2O_vcd"></a></td>
+<td><strong>SSS · anionic · D2O · vcd</strong><br><small>eker2002_fig10_SSS_anionic_D2O_vcd · fig 10</small><br><small>SSS_an / D / VCD</small></td>
+<td>0.09</td><td>0.925</td><td>0.43</td><td>38 %</td><td><small>PPII -0.13, beta 0.48</small></td>
+<td><a href="predictions/eker2002_fig10_SSS_anionic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig10_SSS_anionic_D2O_vcd__efieldphysnet_scaled0.9250.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig10_SSS_anionic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig11_SSS_anionic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig11_SSS_anionic_D2O_vcd.png" alt="overlay eker2002_fig11_SSS_anionic_D2O_vcd"></a></td>
+<td><strong>SSS · anionic · D2O · vcd</strong><br><small>eker2002_fig11_SSS_anionic_D2O_vcd · fig 11</small><br><small>SSS_an / D / VCD</small></td>
+<td>-0.12</td><td>0.922</td><td>0.43</td><td>61 %</td><td><small>PPII 0.03, beta 0.51</small></td>
+<td><a href="predictions/eker2002_fig11_SSS_anionic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig11_SSS_anionic_D2O_vcd__efieldphysnet_scaled0.9750.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig11_SSS_anionic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig11_SSS_cationic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig11_SSS_cationic_D2O_ir.png" alt="overlay eker2002_fig11_SSS_cationic_D2O_ir"></a></td>
+<td><strong>SSS · cationic · D2O · ir</strong><br><small>eker2002_fig11_SSS_cationic_D2O_ir · fig 11</small><br><small>SSS_cat / D / IR</small></td>
+<td>0.03</td><td>0.965</td><td>0.59</td><td></td><td><small>PPII 0.51, beta 0.40</small></td>
+<td><a href="predictions/eker2002_fig11_SSS_cationic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig11_SSS_cationic_D2O_ir__efieldphysnet_scaled0.9650.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig11_SSS_cationic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig11_SSS_cationic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig11_SSS_cationic_D2O_vcd.png" alt="overlay eker2002_fig11_SSS_cationic_D2O_vcd"></a></td>
+<td><strong>SSS · cationic · D2O · vcd</strong><br><small>eker2002_fig11_SSS_cationic_D2O_vcd · fig 11</small><br><small>SSS_cat / D / VCD</small></td>
+<td>-0.06</td><td>0.887</td><td>0.28</td><td>60 %</td><td><small>PPII 0.25, beta 0.16</small></td>
+<td><a href="predictions/eker2002_fig11_SSS_cationic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig11_SSS_cationic_D2O_vcd__efieldphysnet_scaled0.9075.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig11_SSS_cationic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig5_VVV_anionic_solvent_unspecified_ir.png"><img loading="lazy" src="overlays/eker2002_fig5_VVV_anionic_solvent_unspecified_ir.png" alt="overlay eker2002_fig5_VVV_anionic_solvent_unspecified_ir"></a></td>
+<td><strong>VVV · anionic · solvent · unspecified · ir</strong><br><small>eker2002_fig5_VVV_anionic_solvent_unspecified_ir · fig 5</small><br><small>VVV_an / D / IR</small></td>
+<td>-0.74</td><td>0.902</td><td>0.73</td><td></td><td><small>PPII 0.69, beta 0.55</small></td>
+<td><a href="predictions/eker2002_fig5_VVV_anionic_solvent_unspecified_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig5_VVV_anionic_solvent_unspecified_ir__efieldphysnet_scaled0.9025.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig5_VVV_anionic_solvent_unspecified_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig6_VVV_anionic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig6_VVV_anionic_D2O_ir.png" alt="overlay eker2002_fig6_VVV_anionic_D2O_ir"></a></td>
+<td><strong>VVV · anionic · D2O · ir</strong><br><small>eker2002_fig6_VVV_anionic_D2O_ir · fig 6</small><br><small>VVV_an / D / IR</small></td>
+<td>-0.21</td><td>0.902</td><td>0.39</td><td></td><td><small>PPII 0.38, beta 0.32</small></td>
+<td><a href="predictions/eker2002_fig6_VVV_anionic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig6_VVV_anionic_D2O_ir__efieldphysnet_scaled0.9025.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig6_VVV_anionic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso.png" alt="overlay eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso"></a></td>
+<td><strong>VVV · anionic · solvent · unspecified · raman · aniso</strong><br><small>eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso · fig 5</small><br><small>VVV_an / D / Raman aniso.</small></td>
+<td>-0.64</td><td>0.905</td><td>0.92</td><td></td><td><small>PPII 0.81, beta 0.77</small></td>
+<td><a href="predictions/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso__efieldphysnet_scaled0.9050.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso.png" alt="overlay eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso"></a></td>
+<td><strong>VVV · anionic · solvent · unspecified · raman · iso</strong><br><small>eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso · fig 5</small><br><small>VVV_an / D / Raman iso.</small></td>
+<td>-0.37</td><td>0.907</td><td>0.87</td><td></td><td><small>PPII 0.55, beta 0.83</small></td>
+<td><a href="predictions/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso__efieldphysnet_scaled0.9075.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig6_VVV_anionic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig6_VVV_anionic_D2O_vcd.png" alt="overlay eker2002_fig6_VVV_anionic_D2O_vcd"></a></td>
+<td><strong>VVV · anionic · D2O · vcd</strong><br><small>eker2002_fig6_VVV_anionic_D2O_vcd · fig 6</small><br><small>VVV_an / D / VCD</small></td>
+<td>-0.02</td><td>0.897</td><td>0.56</td><td>84 %</td><td><small>PPII 0.54, beta 0.31</small></td>
+<td><a href="predictions/eker2002_fig6_VVV_anionic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig6_VVV_anionic_D2O_vcd__efieldphysnet_scaled0.8975.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig6_VVV_anionic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig5_VVV_cationic_solvent_unspecified_ir.png"><img loading="lazy" src="overlays/eker2002_fig5_VVV_cationic_solvent_unspecified_ir.png" alt="overlay eker2002_fig5_VVV_cationic_solvent_unspecified_ir"></a></td>
+<td><strong>VVV · cationic · solvent · unspecified · ir</strong><br><small>eker2002_fig5_VVV_cationic_solvent_unspecified_ir · fig 5</small><br><small>VVV_cat / D / IR</small></td>
+<td>0.02</td><td>0.937</td><td>0.61</td><td></td><td><small>PPII 0.62, beta 0.56</small></td>
+<td><a href="predictions/eker2002_fig5_VVV_cationic_solvent_unspecified_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig5_VVV_cationic_solvent_unspecified_ir__efieldphysnet_scaled0.9375.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig5_VVV_cationic_solvent_unspecified_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig6_VVV_cationic_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig6_VVV_cationic_D2O_ir.png" alt="overlay eker2002_fig6_VVV_cationic_D2O_ir"></a></td>
+<td><strong>VVV · cationic · D2O · ir</strong><br><small>eker2002_fig6_VVV_cationic_D2O_ir · fig 6</small><br><small>VVV_cat / D / IR</small></td>
+<td>0.08</td><td>0.977</td><td>0.54</td><td></td><td><small>PPII 0.48, beta 0.55</small></td>
+<td><a href="predictions/eker2002_fig6_VVV_cationic_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig6_VVV_cationic_D2O_ir__efieldphysnet_scaled0.9775.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig6_VVV_cationic_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso.png"><img loading="lazy" src="overlays/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso.png" alt="overlay eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso"></a></td>
+<td><strong>VVV · cationic · solvent · unspecified · raman · aniso</strong><br><small>eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso · fig 5</small><br><small>VVV_cat / D / Raman aniso.</small></td>
+<td>-0.01</td><td>0.977</td><td>0.63</td><td></td><td><small>PPII 0.68, beta 0.52</small></td>
+<td><a href="predictions/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso__efieldphysnet_scaled0.9775.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso.png" alt="overlay eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso"></a></td>
+<td><strong>VVV · cationic · solvent · unspecified · raman · iso</strong><br><small>eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso · fig 5</small><br><small>VVV_cat / D / Raman iso.</small></td>
+<td>0.45</td><td>0.980</td><td>0.74</td><td></td><td><small>PPII 0.81, beta 0.56</small></td>
+<td><a href="predictions/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso__efieldphysnet_scaled0.9800.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig9_VVV_cationic_H2O_raman_iso.png"><img loading="lazy" src="overlays/eker2002_fig9_VVV_cationic_H2O_raman_iso.png" alt="overlay eker2002_fig9_VVV_cationic_H2O_raman_iso"></a></td>
+<td><strong>VVV · cationic · H2O · raman · iso</strong><br><small>eker2002_fig9_VVV_cationic_H2O_raman_iso · fig 9</small><br><small>VVV_cat / H / Raman iso.</small></td>
+<td>-0.15</td><td>0.880</td><td>0.80</td><td></td><td><small>PPII 0.75, beta 0.65</small></td>
+<td><a href="predictions/eker2002_fig9_VVV_cationic_H2O_raman_iso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig9_VVV_cationic_H2O_raman_iso__efieldphysnet_scaled0.8800.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig9_VVV_cationic_H2O_raman_iso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig6_VVV_cationic_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig6_VVV_cationic_D2O_vcd.png" alt="overlay eker2002_fig6_VVV_cationic_D2O_vcd"></a></td>
+<td><strong>VVV · cationic · D2O · vcd</strong><br><small>eker2002_fig6_VVV_cationic_D2O_vcd · fig 6</small><br><small>VVV_cat / D / VCD</small></td>
+<td>-0.03</td><td>0.880</td><td>0.18</td><td>37 %</td><td><small>PPII 0.18, beta 0.12</small></td>
+<td><a href="predictions/eker2002_fig6_VVV_cationic_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig6_VVV_cationic_D2O_vcd__efieldphysnet_scaled0.8850.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig6_VVV_cationic_D2O_vcd.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig6_VVV_zwitterion_D2O_ir.png"><img loading="lazy" src="overlays/eker2002_fig6_VVV_zwitterion_D2O_ir.png" alt="overlay eker2002_fig6_VVV_zwitterion_D2O_ir"></a></td>
+<td><strong>VVV · zwitterion · D2O · ir</strong><br><small>eker2002_fig6_VVV_zwitterion_D2O_ir · fig 6</small><br><small>VVV_zw / D / IR</small></td>
+<td>-0.38</td><td>0.930</td><td>0.31</td><td></td><td><small>PPII 0.37, beta 0.10</small></td>
+<td><a href="predictions/eker2002_fig6_VVV_zwitterion_D2O_ir__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig6_VVV_zwitterion_D2O_ir__efieldphysnet_scaled0.9325.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig6_VVV_zwitterion_D2O_ir.csv">reference</a></td></tr>
+<tr><td><a href="overlays/eker2002_fig6_VVV_zwitterion_D2O_vcd.png"><img loading="lazy" src="overlays/eker2002_fig6_VVV_zwitterion_D2O_vcd.png" alt="overlay eker2002_fig6_VVV_zwitterion_D2O_vcd"></a></td>
+<td><strong>VVV · zwitterion · D2O · vcd</strong><br><small>eker2002_fig6_VVV_zwitterion_D2O_vcd · fig 6</small><br><small>VVV_zw / D / VCD</small></td>
+<td>0.19</td><td>1.012</td><td>0.22</td><td>26 %</td><td><small>PPII 0.21, beta 0.13</small></td>
+<td><a href="predictions/eker2002_fig6_VVV_zwitterion_D2O_vcd__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/eker2002_fig6_VVV_zwitterion_D2O_vcd__efieldphysnet_scaled1.0125.csv">scaled</a> · <a href="data/eker2002/csv/eker2002_fig6_VVV_zwitterion_D2O_vcd.csv">reference</a></td></tr></tbody></table></div></section>
+
+<section><div class="eyebrow">03 / POHL 2007 · CH₂Cl₂, DMSO, Ar AND Kr MATRICES</div><h2>Capped Ac-Gly-NHMe and Ac-Ala-NHMe</h2>
+<div class="tablewrap"><table><thead><tr><th>Overlay</th><th>Reference</th><th>r unscaled</th><th>scale</th><th>r scaled</th><th>VCD sign</th><th>per conformer r</th><th>Files</th></tr></thead><tbody><tr><td><a href="overlays/pohl2007_fig5d_ir_ar_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig5d_ir_ar_matrix.png" alt="overlay pohl2007_fig5d_ir_ar_matrix"></a></td>
+<td><strong>Ac-L-Ala-NHMe · ar · matrix · ir</strong><br><small>pohl2007_fig5d_ir_ar_matrix · fig 5</small><br><small>AcA_ar / H / IR</small></td>
+<td>-0.24</td><td>0.965</td><td>0.68</td><td></td><td><small>C7 0.72, C5 0.55</small></td>
+<td><a href="predictions/pohl2007_fig5d_ir_ar_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig5d_ir_ar_matrix__efieldphysnet_scaled0.9650.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig5d_ir_ar_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig6d_ir_ar_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig6d_ir_ar_matrix.png" alt="overlay pohl2007_fig6d_ir_ar_matrix"></a></td>
+<td><strong>Ac-L-Ala-NHMe · ar · matrix · ir</strong><br><small>pohl2007_fig6d_ir_ar_matrix · fig 6</small><br><small>AcA_ar / H / IR</small></td>
+<td>-0.43</td><td>0.950</td><td>0.81</td><td></td><td><small>C7 0.90, C5 0.22</small></td>
+<td><a href="predictions/pohl2007_fig6d_ir_ar_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig6d_ir_ar_matrix__efieldphysnet_scaled0.9500.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig6d_ir_ar_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig7d_vcd_ar_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig7d_vcd_ar_matrix.png" alt="overlay pohl2007_fig7d_vcd_ar_matrix"></a></td>
+<td><strong>Ac-L-Ala-NHMe · ar · matrix · vcd</strong><br><small>pohl2007_fig7d_vcd_ar_matrix · fig 7</small><br><small>AcA_ar / H / VCD</small></td>
+<td>-0.37</td><td>0.932</td><td>0.47</td><td>69 %</td><td><small>C7 0.29, C5 0.47</small></td>
+<td><a href="predictions/pohl2007_fig7d_vcd_ar_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig7d_vcd_ar_matrix__efieldphysnet_scaled0.9325.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig7d_vcd_ar_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig5a_ir_dcm.png"><img loading="lazy" src="overlays/pohl2007_fig5a_ir_dcm.png" alt="overlay pohl2007_fig5a_ir_dcm"></a></td>
+<td><strong>Ac-L-Ala-NHMe · dcm · ir</strong><br><small>pohl2007_fig5a_ir_dcm · fig 5</small><br><small>AcA_dcm / H / IR</small></td>
+<td>-0.50</td><td>0.955</td><td>0.88</td><td></td><td><small>C7 0.88, C5 0.79</small></td>
+<td><a href="predictions/pohl2007_fig5a_ir_dcm__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig5a_ir_dcm__efieldphysnet_scaled0.9550.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig5a_ir_dcm.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig6a_ir_dcm.png"><img loading="lazy" src="overlays/pohl2007_fig6a_ir_dcm.png" alt="overlay pohl2007_fig6a_ir_dcm"></a></td>
+<td><strong>Ac-L-Ala-NHMe · dcm · ir</strong><br><small>pohl2007_fig6a_ir_dcm · fig 6</small><br><small>AcA_dcm / H / IR</small></td>
+<td>-0.42</td><td>0.970</td><td>0.64</td><td></td><td><small>C7 0.77, C5 -0.19</small></td>
+<td><a href="predictions/pohl2007_fig6a_ir_dcm__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig6a_ir_dcm__efieldphysnet_scaled0.9700.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig6a_ir_dcm.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig7a_vcd_dcm.png"><img loading="lazy" src="overlays/pohl2007_fig7a_vcd_dcm.png" alt="overlay pohl2007_fig7a_vcd_dcm"></a></td>
+<td><strong>Ac-L-Ala-NHMe · dcm · vcd</strong><br><small>pohl2007_fig7a_vcd_dcm · fig 7</small><br><small>AcA_dcm / H / VCD</small></td>
+<td>-0.16</td><td>0.882</td><td>0.44</td><td>25 %</td><td><small>C7 0.50, C5 -0.02</small></td>
+<td><a href="predictions/pohl2007_fig7a_vcd_dcm__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig7a_vcd_dcm__efieldphysnet_scaled0.8825.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig7a_vcd_dcm.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig5b_ir_dmso.png"><img loading="lazy" src="overlays/pohl2007_fig5b_ir_dmso.png" alt="overlay pohl2007_fig5b_ir_dmso"></a></td>
+<td><strong>Ac-L-Ala-NHMe · dmso · ir</strong><br><small>pohl2007_fig5b_ir_dmso · fig 5</small><br><small>AcA_dmso / H / IR</small></td>
+<td>-0.18</td><td>0.940</td><td>0.71</td><td></td><td><small>C7 0.65, C5 0.33</small></td>
+<td><a href="predictions/pohl2007_fig5b_ir_dmso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig5b_ir_dmso__efieldphysnet_scaled0.9450.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig5b_ir_dmso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig6b_ir_dmso.png"><img loading="lazy" src="overlays/pohl2007_fig6b_ir_dmso.png" alt="overlay pohl2007_fig6b_ir_dmso"></a></td>
+<td><strong>Ac-L-Ala-NHMe · dmso · ir</strong><br><small>pohl2007_fig6b_ir_dmso · fig 6</small><br><small>AcA_dmso / H / IR</small></td>
+<td>-0.50</td><td>0.945</td><td>0.72</td><td></td><td><small>C7 0.73, C5 0.67</small></td>
+<td><a href="predictions/pohl2007_fig6b_ir_dmso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig6b_ir_dmso__efieldphysnet_scaled0.9450.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig6b_ir_dmso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig7b_vcd_dmso.png"><img loading="lazy" src="overlays/pohl2007_fig7b_vcd_dmso.png" alt="overlay pohl2007_fig7b_vcd_dmso"></a></td>
+<td><strong>Ac-L-Ala-NHMe · dmso · vcd</strong><br><small>pohl2007_fig7b_vcd_dmso · fig 7</small><br><small>AcA_dmso / H / VCD</small></td>
+<td>-0.03</td><td>0.967</td><td>0.35</td><td>47 %</td><td><small>C7 0.09, C5 0.26</small></td>
+<td><a href="predictions/pohl2007_fig7b_vcd_dmso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig7b_vcd_dmso__efieldphysnet_scaled0.9675.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig7b_vcd_dmso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig5c_ir_kr_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig5c_ir_kr_matrix.png" alt="overlay pohl2007_fig5c_ir_kr_matrix"></a></td>
+<td><strong>Ac-L-Ala-NHMe · kr · matrix · ir</strong><br><small>pohl2007_fig5c_ir_kr_matrix · fig 5</small><br><small>AcA_kr / H / IR</small></td>
+<td>-0.27</td><td>0.965</td><td>0.75</td><td></td><td><small>C7 0.70, C5 0.65</small></td>
+<td><a href="predictions/pohl2007_fig5c_ir_kr_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig5c_ir_kr_matrix__efieldphysnet_scaled0.9650.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig5c_ir_kr_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig6c_ir_kr_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig6c_ir_kr_matrix.png" alt="overlay pohl2007_fig6c_ir_kr_matrix"></a></td>
+<td><strong>Ac-L-Ala-NHMe · kr · matrix · ir</strong><br><small>pohl2007_fig6c_ir_kr_matrix · fig 6</small><br><small>AcA_kr / H / IR</small></td>
+<td>-0.41</td><td>0.952</td><td>0.77</td><td></td><td><small>C7 0.82, C5 0.20</small></td>
+<td><a href="predictions/pohl2007_fig6c_ir_kr_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig6c_ir_kr_matrix__efieldphysnet_scaled0.9525.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig6c_ir_kr_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig7c_vcd_kr_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig7c_vcd_kr_matrix.png" alt="overlay pohl2007_fig7c_vcd_kr_matrix"></a></td>
+<td><strong>Ac-L-Ala-NHMe · kr · matrix · vcd</strong><br><small>pohl2007_fig7c_vcd_kr_matrix · fig 7</small><br><small>AcA_kr / H / VCD</small></td>
+<td>-0.20</td><td>0.930</td><td>0.43</td><td>63 %</td><td><small>C7 0.43, C5 0.20</small></td>
+<td><a href="predictions/pohl2007_fig7c_vcd_kr_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig7c_vcd_kr_matrix__efieldphysnet_scaled0.9300.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig7c_vcd_kr_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig2d_ir_ar_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig2d_ir_ar_matrix.png" alt="overlay pohl2007_fig2d_ir_ar_matrix"></a></td>
+<td><strong>Ac-Gly-NHMe · ar · matrix · ir</strong><br><small>pohl2007_fig2d_ir_ar_matrix · fig 2</small><br><small>AcG_ar / H / IR</small></td>
+<td>-0.30</td><td>0.962</td><td>0.81</td><td></td><td><small>C7 0.70, C5 0.62</small></td>
+<td><a href="predictions/pohl2007_fig2d_ir_ar_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig2d_ir_ar_matrix__efieldphysnet_scaled0.9625.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig2d_ir_ar_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig3d_ir_ar_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig3d_ir_ar_matrix.png" alt="overlay pohl2007_fig3d_ir_ar_matrix"></a></td>
+<td><strong>Ac-Gly-NHMe · ar · matrix · ir</strong><br><small>pohl2007_fig3d_ir_ar_matrix · fig 3</small><br><small>AcG_ar / H / IR</small></td>
+<td>-0.23</td><td>0.952</td><td>0.61</td><td></td><td><small>C7 0.44, C5 0.43</small></td>
+<td><a href="predictions/pohl2007_fig3d_ir_ar_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig3d_ir_ar_matrix__efieldphysnet_scaled0.9525.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig3d_ir_ar_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig2a_ir_dcm.png"><img loading="lazy" src="overlays/pohl2007_fig2a_ir_dcm.png" alt="overlay pohl2007_fig2a_ir_dcm"></a></td>
+<td><strong>Ac-Gly-NHMe · dcm · ir</strong><br><small>pohl2007_fig2a_ir_dcm · fig 2</small><br><small>AcG_dcm / H / IR</small></td>
+<td>-0.57</td><td>0.952</td><td>0.90</td><td></td><td><small>C7 0.72, C5 0.71</small></td>
+<td><a href="predictions/pohl2007_fig2a_ir_dcm__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig2a_ir_dcm__efieldphysnet_scaled0.9525.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig2a_ir_dcm.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig3a_ir_dcm.png"><img loading="lazy" src="overlays/pohl2007_fig3a_ir_dcm.png" alt="overlay pohl2007_fig3a_ir_dcm"></a></td>
+<td><strong>Ac-Gly-NHMe · dcm · ir</strong><br><small>pohl2007_fig3a_ir_dcm · fig 3</small><br><small>AcG_dcm / H / IR</small></td>
+<td>-0.34</td><td>0.945</td><td>0.69</td><td></td><td><small>C7 0.38, C5 0.90</small></td>
+<td><a href="predictions/pohl2007_fig3a_ir_dcm__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig3a_ir_dcm__efieldphysnet_scaled0.9600.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig3a_ir_dcm.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig2b_ir_dmso.png"><img loading="lazy" src="overlays/pohl2007_fig2b_ir_dmso.png" alt="overlay pohl2007_fig2b_ir_dmso"></a></td>
+<td><strong>Ac-Gly-NHMe · dmso · ir</strong><br><small>pohl2007_fig2b_ir_dmso · fig 2</small><br><small>AcG_dmso / H / IR</small></td>
+<td>-0.26</td><td>0.940</td><td>0.82</td><td></td><td><small>C7 0.87, C5 0.69</small></td>
+<td><a href="predictions/pohl2007_fig2b_ir_dmso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig2b_ir_dmso__efieldphysnet_scaled0.9400.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig2b_ir_dmso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig3b_ir_dmso.png"><img loading="lazy" src="overlays/pohl2007_fig3b_ir_dmso.png" alt="overlay pohl2007_fig3b_ir_dmso"></a></td>
+<td><strong>Ac-Gly-NHMe · dmso · ir</strong><br><small>pohl2007_fig3b_ir_dmso · fig 3</small><br><small>AcG_dmso / H / IR</small></td>
+<td>-0.62</td><td>0.945</td><td>0.84</td><td></td><td><small>C7 0.79, C5 0.79</small></td>
+<td><a href="predictions/pohl2007_fig3b_ir_dmso__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig3b_ir_dmso__efieldphysnet_scaled0.9450.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig3b_ir_dmso.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig2c_ir_kr_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig2c_ir_kr_matrix.png" alt="overlay pohl2007_fig2c_ir_kr_matrix"></a></td>
+<td><strong>Ac-Gly-NHMe · kr · matrix · ir</strong><br><small>pohl2007_fig2c_ir_kr_matrix · fig 2</small><br><small>AcG_kr / H / IR</small></td>
+<td>-0.42</td><td>0.962</td><td>0.85</td><td></td><td><small>C7 0.69, C5 0.72</small></td>
+<td><a href="predictions/pohl2007_fig2c_ir_kr_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig2c_ir_kr_matrix__efieldphysnet_scaled0.9625.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig2c_ir_kr_matrix.csv">reference</a></td></tr>
+<tr><td><a href="overlays/pohl2007_fig3c_ir_kr_matrix.png"><img loading="lazy" src="overlays/pohl2007_fig3c_ir_kr_matrix.png" alt="overlay pohl2007_fig3c_ir_kr_matrix"></a></td>
+<td><strong>Ac-Gly-NHMe · kr · matrix · ir</strong><br><small>pohl2007_fig3c_ir_kr_matrix · fig 3</small><br><small>AcG_kr / H / IR</small></td>
+<td>-0.31</td><td>0.952</td><td>0.54</td><td></td><td><small>C7 0.42, C5 0.30</small></td>
+<td><a href="predictions/pohl2007_fig3c_ir_kr_matrix__efieldphysnet_unscaled.csv">unscaled</a> · <a href="predictions/pohl2007_fig3c_ir_kr_matrix__efieldphysnet_scaled0.9825.csv">scaled</a> · <a href="data/pohl2007/csv/pohl2007_fig3c_ir_kr_matrix.csv">reference</a></td></tr></tbody></table></div></section>
+
+<section><div class="eyebrow">04 / PROVENANCE</div><h2>How the predictions were made</h2>
+<dl><dt>Model</dt><dd>EFieldPhysNet rw_neutral (SPICE-alpha, parity-correct, dipole 100 / alpha 0.1, forces 10, energy weight 0)</dd><dt>Checkpoint</dt><dd>params-best.json · sha256 fd4f096cb7b144ff0e88103c81c356bcd0f9f7659c0895d6e10dfaa7d6489042</dd><dt>Code</dt><dd>scripts/spice_alpha/peptide_mlmm.py + peptide_mlmm_compare.py at commit 9abb65735c7c980984b6885f3b89314e73f2ca58</dd><dt>Environment</dt><dd>ML/MM mechanical embedding: peptide = model (float64, CPU), solvent sphere (TIP3P / custom DCM, DMSO, Ar, Kr) + counter-ions = CHARMM36 via pyCHARMM; minimisation of all atoms; peptide Hessian = ML + finite-difference MM coupling</dd><dt>Isotopes</dt><dd>D2O systems: every H on N or O replaced by D (amide I'); other solvents: H</dd><dt>Conformers</dt><dd>tripeptides: PPII and beta starts; capped dipeptides: C7 and C5; weighting = equal (equal by default: the independently solvated minima have incomparable total energies)</dd><dt>Scaling</dt><dd>none ('unscaled' files) and a uniform factor chosen to maximise the correlation with the digitised trace ('scaledX' files; reported per entry)</dd><dt>Broadening</dt><dd>Lorentzian, HWHM 10.0 cm-1</dd><dt>Normalisation</dt><dd>IR/Raman max = 1; VCD max|.| = 1 (signed)</dd></dl>
+<h3>Limitations</h3><ul class="small"><li>mechanical embedding: no solvent polarisation of the model's charges/dipoles; solvent enters through geometry and the MM coupling Hessian only</li><li>harmonic, 0 K minima; two conformers per system; no anharmonic or thermal broadening beyond the Lorentzian</li><li>VCD from the model's charges-only atomic axial tensors</li><li>charged peptides evaluated with the neutral-trained model (rw_neutral) plus explicit counter-ions in the MM region</li></ul>
+<p class="small">Raw per-conformer outputs (stick frequencies and intensities for H and D isotopologues, minimised peptide geometry, model charges, dipole and polarizability) are in <a href="results/efieldphysnet_mlmm_20261012/raw/">results/efieldphysnet_mlmm_20261012/raw/</a> as JSON, one file per system and conformer.</p></section>
+
+<section><div class="eyebrow">05 / LIBRARY</div><h2>Gas-phase harmonic library of capped tripeptides</h2>
+<p class="intro">Same model, every Ac-X-X-X-NHMe sequence (X in the 20 standard amino acids, neutral Arg) from PPII, β and α<sub>R</sub> starts, L and D enantiomers: energies, dipoles, polarizabilities and IR / Raman / VCD. Status at export: 5196 sequences, 15588 L minima (31176 with mirror images); the remaining shards are still running and the table will be refreshed.</p>
+<div class="stats"><div><strong>5196</strong>sequences</div><div><strong>15588</strong>L minima</div><div><strong>59 / 19 / 21 %</strong>β / PPII / α<sub>R</sub> basins</div><div><strong>49 h</strong>GPU time</div></div>
+<div class="actions"><a class="button" href="library/summary_20261012.csv.gz">summary table (csv.gz, 4.6 MB) ↓</a><a class="secondary" href="library/summary.json">summary.json →</a><a class="secondary" href="library/overview.json">overview.json →</a><a class="secondary" href="library/README.md">column guide →</a></div>
+<div class="gallery">
+<figure><img src="library/fig_library_overview_20261012.png" alt="library overview"><figcaption>Convergence, imaginary modes and energy distributions across the library.</figcaption></figure>
+<figure><img src="library/fig_populations_20261012.png" alt="basin populations"><figcaption>Final-basin populations by residue and position.</figcaption></figure>
+<figure><img src="library/fig_amide_vcd_20261012.png" alt="amide VCD"><figcaption>Amide-region VCD by basin.</figcaption></figure>
+<figure><img src="library/fig_vcd_strength_20261012.png" alt="VCD strength"><figcaption>Rotational-strength magnitudes by basin and residue.</figcaption></figure>
+<figure><img src="library/fig_mirror_cov_20261012.png" alt="mirror covariance"><figcaption>L versus D mirror-image checks: energies, frequencies and VCD sign reversal.</figcaption></figure>
+<figure><img src="library/fig_example_spectra_20261012.png" alt="example spectra"><figcaption>Example broadened IR, Raman and VCD spectra.</figcaption></figure>
+<figure><img src="library/trialanine_zw_amide_20261012.png" alt="trialanine zwitterion"><figcaption>Zwitterionic trialanine-d in the gas phase (PPII, β, α<sub>R</sub> starts), amide I′ region; <a href="library/trialanine_zw_20261012.json">mode table</a>.</figcaption></figure>
+</div></section>
+</main><footer>Tripeptide Spectra Atlas · predictions generated 2026-10-12 · <a href="results/efieldphysnet_mlmm_20261012/run.json">run.json</a> · <a href="https://github.com/EricBoittier/tripeptide-spectra-atlas/issues">Report a problem</a></footer></body></html>

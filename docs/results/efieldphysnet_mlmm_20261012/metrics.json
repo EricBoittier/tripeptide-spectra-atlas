@@ -1,0 +1,1172 @@
+{
+ "eker2002_fig3_AAA_zwitterion_D2O_vcd": {
+  "system": "AAA_zw",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.06034298140528581,
+   "beta": 0.24771170585835797
+  },
+  "corr_unscaled": -0.04255373691442455,
+  "best_scale": 0.9449999999999986,
+  "corr_scaled": 0.22825169578706533,
+  "vcd_sign_agreement": 0.45533578231456534,
+  "n_points": 2558
+ },
+ "eker2002_fig3_AAA_zwitterion_D2O_ir": {
+  "system": "AAA_zw",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.4485883135835839,
+   "beta": 0.41892238910422314
+  },
+  "corr_unscaled": -0.37317723178279383,
+  "best_scale": 0.9024999999999995,
+  "corr_scaled": 0.4720895006368546,
+  "vcd_sign_agreement": null,
+  "n_points": 2558
+ },
+ "eker2002_fig3_AAA_cationic_D2O_vcd": {
+  "system": "AAA_cat",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": -0.05791620604755638,
+   "beta": 0.33365105561241065
+  },
+  "corr_unscaled": -0.09607973087740375,
+  "best_scale": 0.9424999999999987,
+  "corr_scaled": 0.2269128606022621,
+  "vcd_sign_agreement": 0.7151202889760311,
+  "n_points": 2558
+ },
+ "eker2002_fig3_AAA_cationic_D2O_ir": {
+  "system": "AAA_cat",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.5154345399366848,
+   "beta": 0.585343906001762
+  },
+  "corr_unscaled": -0.003352924532529525,
+  "best_scale": 0.9599999999999983,
+  "corr_scaled": 0.5906598265972088,
+  "vcd_sign_agreement": null,
+  "n_points": 2558
+ },
+ "eker2002_fig3_AAA_anionic_D2O_vcd": {
+  "system": "AAA_an",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.4247797670293132,
+   "beta": 0.414693558259914
+  },
+  "corr_unscaled": -0.02256821235991318,
+  "best_scale": 0.9299999999999989,
+  "corr_scaled": 0.5723089521145714,
+  "vcd_sign_agreement": 0.46460956269038906,
+  "n_points": 2558
+ },
+ "eker2002_fig3_AAA_anionic_D2O_ir": {
+  "system": "AAA_an",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.4420440421432919,
+   "beta": 0.32345698528877587
+  },
+  "corr_unscaled": -0.2822758975667075,
+  "best_scale": 0.8924999999999997,
+  "corr_scaled": 0.4592868967518097,
+  "vcd_sign_agreement": null,
+  "n_points": 2558
+ },
+ "eker2002_fig1_AAA_zwitterion_D2O_ir": {
+  "system": "AAA_zw",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.5876828580204689,
+   "beta": 0.6639607858404963
+  },
+  "corr_unscaled": -0.6028014616600882,
+  "best_scale": 0.9024999999999995,
+  "corr_scaled": 0.6724859383942906,
+  "vcd_sign_agreement": null,
+  "n_points": 320
+ },
+ "eker2002_fig1_A_DA_A_zwitterion_D2O_ir": {
+  "system": "ADA_zw",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.5709770195573153,
+   "beta": 0.4666667314501297
+  },
+  "corr_unscaled": -0.6476477582340726,
+  "best_scale": 0.8999999999999996,
+  "corr_scaled": 0.5471343392102948,
+  "vcd_sign_agreement": null,
+  "n_points": 319
+ },
+ "eker2002_fig5_VVV_anionic_solvent_unspecified_ir": {
+  "system": "VVV_an",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.6870531246023307,
+   "beta": 0.5542799866666734
+  },
+  "corr_unscaled": -0.7351952131322745,
+  "best_scale": 0.9024999999999995,
+  "corr_scaled": 0.7300083839660002,
+  "vcd_sign_agreement": null,
+  "n_points": 1092
+ },
+ "eker2002_fig5_VVV_cationic_solvent_unspecified_ir": {
+  "system": "VVV_cat",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.6229807832747634,
+   "beta": 0.5614136425839525
+  },
+  "corr_unscaled": 0.016278270501526932,
+  "best_scale": 0.9374999999999988,
+  "corr_scaled": 0.6099257961787383,
+  "vcd_sign_agreement": null,
+  "n_points": 1290
+ },
+ "eker2002_fig10_SSS_anionic_D2O_ir": {
+  "system": "SSS_an",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.7400234596526091,
+   "beta": 0.7139939594836922
+  },
+  "corr_unscaled": -0.4569375846325873,
+  "best_scale": 0.9124999999999993,
+  "corr_scaled": 0.7830151136383899,
+  "vcd_sign_agreement": null,
+  "n_points": 2409
+ },
+ "eker2002_fig13_KKK_acid_pD1_D2O_ir": {
+  "system": "KKK_pD1",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.8003372970061453,
+   "beta": 0.6045421342460321
+  },
+  "corr_unscaled": 0.3190760651021846,
+  "best_scale": 0.9774999999999979,
+  "corr_scaled": 0.7649236608887149,
+  "vcd_sign_agreement": null,
+  "n_points": 1257
+ },
+ "eker2002_fig13_KKK_neutral_pD7_D2O_ir": {
+  "system": "KKK_pD7",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": -0.1769297795832744,
+   "beta": 0.8298549585482365
+  },
+  "corr_unscaled": -0.35318729852104896,
+  "best_scale": 0.9099999999999994,
+  "corr_scaled": 0.6841651928775642,
+  "vcd_sign_agreement": null,
+  "n_points": 977
+ },
+ "eker2002_fig1_AAA_zwitterion_D2O_raman_iso": {
+  "system": "AAA_zw",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": -0.06642406197005075,
+   "beta": 0.9031142172500934
+  },
+  "corr_unscaled": -0.23553344171265803,
+  "best_scale": 0.9099999999999994,
+  "corr_scaled": 0.705259329712561,
+  "vcd_sign_agreement": null,
+  "n_points": 310
+ },
+ "eker2002_fig1_A_DA_A_zwitterion_D2O_raman_iso": {
+  "system": "ADA_zw",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.9187593394663777,
+   "beta": -0.1111538350261091
+  },
+  "corr_unscaled": -0.34292379644765364,
+  "best_scale": 0.9374999999999988,
+  "corr_scaled": 0.8697817006292301,
+  "vcd_sign_agreement": null,
+  "n_points": 319
+ },
+ "eker2002_fig5_VVV_anionic_solvent_unspecified_raman_iso": {
+  "system": "VVV_an",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.5467129470887684,
+   "beta": 0.8343612898637345
+  },
+  "corr_unscaled": -0.3738506657877173,
+  "best_scale": 0.9074999999999994,
+  "corr_scaled": 0.8678806109768701,
+  "vcd_sign_agreement": null,
+  "n_points": 1281
+ },
+ "eker2002_fig5_VVV_cationic_solvent_unspecified_raman_iso": {
+  "system": "VVV_cat",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.80790348960149,
+   "beta": 0.5627208182174956
+  },
+  "corr_unscaled": 0.4496301380929587,
+  "best_scale": 0.9799999999999979,
+  "corr_scaled": 0.7393004652794515,
+  "vcd_sign_agreement": null,
+  "n_points": 1274
+ },
+ "eker2002_fig10_SSS_anionic_D2O_raman_iso": {
+  "system": "SSS_an",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.8334869958378306,
+   "beta": -0.4234077639356059
+  },
+  "corr_unscaled": -0.38131820699091523,
+  "best_scale": 0.9199999999999992,
+  "corr_scaled": 0.8285250333445582,
+  "vcd_sign_agreement": null,
+  "n_points": 2409
+ },
+ "eker2002_fig13_KKK_acid_pD1_D2O_raman_iso": {
+  "system": "KKK_pD1",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.9278860987307375,
+   "beta": 0.7287104197421772
+  },
+  "corr_unscaled": 0.3551301769526658,
+  "best_scale": 0.9799999999999979,
+  "corr_scaled": 0.8648181789559352,
+  "vcd_sign_agreement": null,
+  "n_points": 1257
+ },
+ "eker2002_fig13_KKK_neutral_pD7_D2O_raman_iso": {
+  "system": "KKK_pD7",
+  "isotopologue": "D",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": -0.16052098035732168,
+   "beta": 0.939318722316447
+  },
+  "corr_unscaled": -0.29674951044472575,
+  "best_scale": 0.9674999999999981,
+  "corr_scaled": 0.8862291179887776,
+  "vcd_sign_agreement": null,
+  "n_points": 1024
+ },
+ "eker2002_fig1_AAA_zwitterion_D2O_raman_aniso": {
+  "system": "AAA_zw",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.6737225384666142,
+   "beta": 0.7766331308958488
+  },
+  "corr_unscaled": -0.5075400563814958,
+  "best_scale": 0.9074999999999994,
+  "corr_scaled": 0.8043821394990313,
+  "vcd_sign_agreement": null,
+  "n_points": 319
+ },
+ "eker2002_fig1_A_DA_A_zwitterion_D2O_raman_aniso": {
+  "system": "ADA_zw",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.7047401797447442,
+   "beta": 0.745829939889105
+  },
+  "corr_unscaled": -0.6394168937706238,
+  "best_scale": 0.9074999999999994,
+  "corr_scaled": 0.7356265854380039,
+  "vcd_sign_agreement": null,
+  "n_points": 319
+ },
+ "eker2002_fig5_VVV_anionic_solvent_unspecified_raman_aniso": {
+  "system": "VVV_an",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.8088339370421643,
+   "beta": 0.7660714211775921
+  },
+  "corr_unscaled": -0.6407605121832519,
+  "best_scale": 0.9049999999999995,
+  "corr_scaled": 0.9248222840813849,
+  "vcd_sign_agreement": null,
+  "n_points": 1281
+ },
+ "eker2002_fig5_VVV_cationic_solvent_unspecified_raman_aniso": {
+  "system": "VVV_cat",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.6790780213785528,
+   "beta": 0.5211186760506084
+  },
+  "corr_unscaled": -0.007065612037810212,
+  "best_scale": 0.9774999999999979,
+  "corr_scaled": 0.6333768970842325,
+  "vcd_sign_agreement": null,
+  "n_points": 1290
+ },
+ "eker2002_fig10_SSS_anionic_D2O_raman_aniso": {
+  "system": "SSS_an",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.7875769275291521,
+   "beta": 0.7918670576047634
+  },
+  "corr_unscaled": -0.48575368486050624,
+  "best_scale": 0.9174999999999992,
+  "corr_scaled": 0.8997927448735143,
+  "vcd_sign_agreement": null,
+  "n_points": 2409
+ },
+ "eker2002_fig13_KKK_acid_pD1_D2O_raman_aniso": {
+  "system": "KKK_pD1",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.8334703484754458,
+   "beta": 0.6333710722479523
+  },
+  "corr_unscaled": 0.24775650969452176,
+  "best_scale": 0.9799999999999979,
+  "corr_scaled": 0.7968715224694288,
+  "vcd_sign_agreement": null,
+  "n_points": 1257
+ },
+ "eker2002_fig13_KKK_neutral_pD7_D2O_raman_aniso": {
+  "system": "KKK_pD7",
+  "isotopologue": "D",
+  "observable": "raman_aniso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.25445572297630803,
+   "beta": 0.413853651144823
+  },
+  "corr_unscaled": -0.36504705142705507,
+  "best_scale": 0.9124999999999993,
+  "corr_scaled": 0.4943177291239879,
+  "vcd_sign_agreement": null,
+  "n_points": 1267
+ },
+ "eker2002_fig10_SSS_anionic_D2O_vcd": {
+  "system": "SSS_an",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": -0.13071420321244714,
+   "beta": 0.4839121624744126
+  },
+  "corr_unscaled": 0.09318236433296992,
+  "best_scale": 0.924999999999999,
+  "corr_scaled": 0.43017462454187505,
+  "vcd_sign_agreement": 0.3821878035135129,
+  "n_points": 2409
+ },
+ "eker2002_fig6_VVV_anionic_D2O_vcd": {
+  "system": "VVV_an",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.5384161353793973,
+   "beta": 0.30561332889971654
+  },
+  "corr_unscaled": -0.020572338603581635,
+  "best_scale": 0.8974999999999996,
+  "corr_scaled": 0.5640391261126971,
+  "vcd_sign_agreement": 0.842595446409693,
+  "n_points": 2532
+ },
+ "eker2002_fig6_VVV_anionic_D2O_ir": {
+  "system": "VVV_an",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.37755869264124514,
+   "beta": 0.31712116885593233
+  },
+  "corr_unscaled": -0.20892884266227643,
+  "best_scale": 0.9024999999999995,
+  "corr_scaled": 0.3928317209710049,
+  "vcd_sign_agreement": null,
+  "n_points": 2532
+ },
+ "eker2002_fig6_VVV_zwitterion_D2O_vcd": {
+  "system": "VVV_zw",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.20836562116252427,
+   "beta": 0.13119964127035577
+  },
+  "corr_unscaled": 0.19140305908727173,
+  "best_scale": 1.012499999999997,
+  "corr_scaled": 0.2197801189066513,
+  "vcd_sign_agreement": 0.2560229328130566,
+  "n_points": 2532
+ },
+ "eker2002_fig6_VVV_zwitterion_D2O_ir": {
+  "system": "VVV_zw",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.37094082938883355,
+   "beta": 0.103148050065639
+  },
+  "corr_unscaled": -0.3817677968936953,
+  "best_scale": 0.9299999999999989,
+  "corr_scaled": 0.30711286436363083,
+  "vcd_sign_agreement": null,
+  "n_points": 2532
+ },
+ "eker2002_fig6_VVV_cationic_D2O_vcd": {
+  "system": "VVV_cat",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.18056878551534322,
+   "beta": 0.11591709875508403
+  },
+  "corr_unscaled": -0.028435482001171835,
+  "best_scale": 0.88,
+  "corr_scaled": 0.17636438324337914,
+  "vcd_sign_agreement": 0.37394804603130566,
+  "n_points": 2532
+ },
+ "eker2002_fig6_VVV_cationic_D2O_ir": {
+  "system": "VVV_cat",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.4838819605436307,
+   "beta": 0.548480413001639
+  },
+  "corr_unscaled": 0.07818187337710257,
+  "best_scale": 0.9774999999999979,
+  "corr_scaled": 0.5387672784983104,
+  "vcd_sign_agreement": null,
+  "n_points": 2530
+ },
+ "eker2002_fig11_SSS_anionic_D2O_vcd": {
+  "system": "SSS_an",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.02688095854722898,
+   "beta": 0.5116076626393758
+  },
+  "corr_unscaled": -0.12142590257290126,
+  "best_scale": 0.9224999999999991,
+  "corr_scaled": 0.43483684130283506,
+  "vcd_sign_agreement": 0.6145207877578476,
+  "n_points": 2468
+ },
+ "eker2002_fig11_SSS_anionic_D2O_ir": {
+  "system": "SSS_an",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.3310384045010162,
+   "beta": 0.3307535031612073
+  },
+  "corr_unscaled": -0.33553203047177904,
+  "best_scale": 0.9124999999999993,
+  "corr_scaled": 0.35287992885190617,
+  "vcd_sign_agreement": null,
+  "n_points": 2468
+ },
+ "eker2002_fig11_SSS_cationic_D2O_vcd": {
+  "system": "SSS_cat",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.25006334299910055,
+   "beta": 0.1591886908680363
+  },
+  "corr_unscaled": -0.056447003682168165,
+  "best_scale": 0.8874999999999998,
+  "corr_scaled": 0.2785746917827806,
+  "vcd_sign_agreement": 0.6033984645902085,
+  "n_points": 2468
+ },
+ "eker2002_fig11_SSS_cationic_D2O_ir": {
+  "system": "SSS_cat",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.5106060543853086,
+   "beta": 0.39999511743141086
+  },
+  "corr_unscaled": 0.031916308899268574,
+  "best_scale": 0.9649999999999982,
+  "corr_scaled": 0.5917932811141758,
+  "vcd_sign_agreement": null,
+  "n_points": 2461
+ },
+ "eker2002_fig14_KKK_neutral_label_D2O_vcd": {
+  "system": "KKK_pD7",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.06086405772603255,
+   "beta": 0.24618030883403264
+  },
+  "corr_unscaled": 0.03642169712093888,
+  "best_scale": 0.9399999999999987,
+  "corr_scaled": 0.20632216392012884,
+  "vcd_sign_agreement": 0.41327935346467976,
+  "n_points": 2546
+ },
+ "eker2002_fig14_KKK_neutral_label_D2O_ir": {
+  "system": "KKK_pD7",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": -0.03812940017580184,
+   "beta": 0.648705206172647
+  },
+  "corr_unscaled": -0.35897635314644216,
+  "best_scale": 0.9074999999999994,
+  "corr_scaled": 0.4537909984589608,
+  "vcd_sign_agreement": null,
+  "n_points": 2546
+ },
+ "eker2002_fig14_KKK_acidic_label_D2O_vcd": {
+  "system": "KKK_pD1",
+  "isotopologue": "D",
+  "observable": "vcd",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.11132923153469716,
+   "beta": 0.05644818135620576
+  },
+  "corr_unscaled": 0.08647893982921438,
+  "best_scale": 0.88,
+  "corr_scaled": 0.09778956371554419,
+  "vcd_sign_agreement": 0.5110842375805215,
+  "n_points": 2546
+ },
+ "eker2002_fig14_KKK_acidic_label_D2O_ir": {
+  "system": "KKK_pD1",
+  "isotopologue": "D",
+  "observable": "ir",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.8348090948939901,
+   "beta": 0.4066462950422208
+  },
+  "corr_unscaled": 0.18685892651971106,
+  "best_scale": 0.9774999999999979,
+  "corr_scaled": 0.7408355204155916,
+  "vcd_sign_agreement": null,
+  "n_points": 2546
+ },
+ "eker2002_fig9_VVV_cationic_H2O_raman_iso": {
+  "system": "VVV_cat",
+  "isotopologue": "H",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.7453710232973058,
+   "beta": 0.6493337120070556
+  },
+  "corr_unscaled": -0.1545652152176002,
+  "best_scale": 0.88,
+  "corr_scaled": 0.7958513654742542,
+  "vcd_sign_agreement": null,
+  "n_points": 2047
+ },
+ "eker2002_fig16_KKK_acid_H2O_raman_iso": {
+  "system": "KKK_pD1",
+  "isotopologue": "H",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.7353135740578192,
+   "beta": 0.7324384239296259
+  },
+  "corr_unscaled": -0.8052806065884837,
+  "best_scale": 0.88,
+  "corr_scaled": 0.7819585810664239,
+  "vcd_sign_agreement": null,
+  "n_points": 731
+ },
+ "eker2002_fig16_AAA_acid_H2O_raman_iso": {
+  "system": "AAA_cat",
+  "isotopologue": "H",
+  "observable": "raman_iso",
+  "conformer_weights": {
+   "PPII": 0.5,
+   "beta": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "PPII": 0.19983036575211627,
+   "beta": 0.7120388874038265
+  },
+  "corr_unscaled": -0.39961619532773157,
+  "best_scale": 0.88,
+  "corr_scaled": 0.4413345517564142,
+  "vcd_sign_agreement": null,
+  "n_points": 731
+ },
+ "pohl2007_fig2a_ir_dcm": {
+  "system": "AcG_dcm",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.7166414132098703,
+   "C5": 0.7091337001495821
+  },
+  "corr_unscaled": -0.569216787460267,
+  "best_scale": 0.9524999999999985,
+  "corr_scaled": 0.8988898883782172,
+  "vcd_sign_agreement": null,
+  "n_points": 1444
+ },
+ "pohl2007_fig2b_ir_dmso": {
+  "system": "AcG_dmso",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.8676373388451789,
+   "C5": 0.6905202003165247
+  },
+  "corr_unscaled": -0.2634041797496582,
+  "best_scale": 0.9399999999999987,
+  "corr_scaled": 0.8211708756444542,
+  "vcd_sign_agreement": null,
+  "n_points": 1444
+ },
+ "pohl2007_fig2c_ir_kr_matrix": {
+  "system": "AcG_kr",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.6906940990652394,
+   "C5": 0.7184225675428908
+  },
+  "corr_unscaled": -0.4236944609219379,
+  "best_scale": 0.9624999999999982,
+  "corr_scaled": 0.8496217558076488,
+  "vcd_sign_agreement": null,
+  "n_points": 1444
+ },
+ "pohl2007_fig2d_ir_ar_matrix": {
+  "system": "AcG_ar",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.6999243787949363,
+   "C5": 0.6150039902789717
+  },
+  "corr_unscaled": -0.3021326434806869,
+  "best_scale": 0.9624999999999982,
+  "corr_scaled": 0.8142925197357134,
+  "vcd_sign_agreement": null,
+  "n_points": 1444
+ },
+ "pohl2007_fig3a_ir_dcm": {
+  "system": "AcG_dcm",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.37919733900103203,
+   "C5": 0.8961798170969522
+  },
+  "corr_unscaled": -0.3403268927105576,
+  "best_scale": 0.9449999999999986,
+  "corr_scaled": 0.6851865264493878,
+  "vcd_sign_agreement": null,
+  "n_points": 1446
+ },
+ "pohl2007_fig3b_ir_dmso": {
+  "system": "AcG_dmso",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.7890009497338706,
+   "C5": 0.791138756756616
+  },
+  "corr_unscaled": -0.61514168348884,
+  "best_scale": 0.9449999999999986,
+  "corr_scaled": 0.8419262874569972,
+  "vcd_sign_agreement": null,
+  "n_points": 1446
+ },
+ "pohl2007_fig3c_ir_kr_matrix": {
+  "system": "AcG_kr",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.420999660973999,
+   "C5": 0.30217760904733887
+  },
+  "corr_unscaled": -0.31008347023838906,
+  "best_scale": 0.9524999999999985,
+  "corr_scaled": 0.536385577982187,
+  "vcd_sign_agreement": null,
+  "n_points": 1446
+ },
+ "pohl2007_fig3d_ir_ar_matrix": {
+  "system": "AcG_ar",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.44347966029170205,
+   "C5": 0.4349814815241366
+  },
+  "corr_unscaled": -0.22566185707178701,
+  "best_scale": 0.9524999999999985,
+  "corr_scaled": 0.6138383494915337,
+  "vcd_sign_agreement": null,
+  "n_points": 1446
+ },
+ "pohl2007_fig5a_ir_dcm": {
+  "system": "AcA_dcm",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.8795042780213032,
+   "C5": 0.7893283241604255
+  },
+  "corr_unscaled": -0.5032978287870647,
+  "best_scale": 0.9549999999999984,
+  "corr_scaled": 0.8798998732793959,
+  "vcd_sign_agreement": null,
+  "n_points": 1443
+ },
+ "pohl2007_fig5b_ir_dmso": {
+  "system": "AcA_dmso",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.6517673982940022,
+   "C5": 0.3302699774144065
+  },
+  "corr_unscaled": -0.1786955399466072,
+  "best_scale": 0.9399999999999987,
+  "corr_scaled": 0.7129315440499812,
+  "vcd_sign_agreement": null,
+  "n_points": 1443
+ },
+ "pohl2007_fig5c_ir_kr_matrix": {
+  "system": "AcA_kr",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.6976170924735241,
+   "C5": 0.6489439673562258
+  },
+  "corr_unscaled": -0.2678840708505817,
+  "best_scale": 0.9649999999999982,
+  "corr_scaled": 0.7453402355595744,
+  "vcd_sign_agreement": null,
+  "n_points": 1443
+ },
+ "pohl2007_fig5d_ir_ar_matrix": {
+  "system": "AcA_ar",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.7228789359384129,
+   "C5": 0.5531718138623344
+  },
+  "corr_unscaled": -0.23634883981814409,
+  "best_scale": 0.9649999999999982,
+  "corr_scaled": 0.6756155787069802,
+  "vcd_sign_agreement": null,
+  "n_points": 1443
+ },
+ "pohl2007_fig6a_ir_dcm": {
+  "system": "AcA_dcm",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.7658676791039674,
+   "C5": -0.18745971699386632
+  },
+  "corr_unscaled": -0.423881245131579,
+  "best_scale": 0.9699999999999981,
+  "corr_scaled": 0.6378879796621253,
+  "vcd_sign_agreement": null,
+  "n_points": 1431
+ },
+ "pohl2007_fig6b_ir_dmso": {
+  "system": "AcA_dmso",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.7251232107231201,
+   "C5": 0.6697826267641063
+  },
+  "corr_unscaled": -0.4951687075684325,
+  "best_scale": 0.9449999999999986,
+  "corr_scaled": 0.7197802250515382,
+  "vcd_sign_agreement": null,
+  "n_points": 1377
+ },
+ "pohl2007_fig6c_ir_kr_matrix": {
+  "system": "AcA_kr",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.8218606203503586,
+   "C5": 0.20375799023840677
+  },
+  "corr_unscaled": -0.4066329164450113,
+  "best_scale": 0.9524999999999985,
+  "corr_scaled": 0.7717612223557602,
+  "vcd_sign_agreement": null,
+  "n_points": 1431
+ },
+ "pohl2007_fig6d_ir_ar_matrix": {
+  "system": "AcA_ar",
+  "isotopologue": "H",
+  "observable": "ir",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.9043143482543866,
+   "C5": 0.21556092026900103
+  },
+  "corr_unscaled": -0.43453321088464597,
+  "best_scale": 0.9499999999999985,
+  "corr_scaled": 0.8123633972725932,
+  "vcd_sign_agreement": null,
+  "n_points": 1431
+ },
+ "pohl2007_fig7a_vcd_dcm": {
+  "system": "AcA_dcm",
+  "isotopologue": "H",
+  "observable": "vcd",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.5011165189796909,
+   "C5": -0.01760412881938312
+  },
+  "corr_unscaled": -0.15639253962082017,
+  "best_scale": 0.8825,
+  "corr_scaled": 0.4423334254122472,
+  "vcd_sign_agreement": 0.25457977699552303,
+  "n_points": 1325
+ },
+ "pohl2007_fig7b_vcd_dmso": {
+  "system": "AcA_dmso",
+  "isotopologue": "H",
+  "observable": "vcd",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.09377053382463037,
+   "C5": 0.2596466241509602
+  },
+  "corr_unscaled": -0.028302951518802747,
+  "best_scale": 0.9674999999999981,
+  "corr_scaled": 0.34850904556412876,
+  "vcd_sign_agreement": 0.47019100025237587,
+  "n_points": 1367
+ },
+ "pohl2007_fig7c_vcd_kr_matrix": {
+  "system": "AcA_kr",
+  "isotopologue": "H",
+  "observable": "vcd",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.43048589973036167,
+   "C5": 0.200996940765299
+  },
+  "corr_unscaled": -0.20063601307136067,
+  "best_scale": 0.9299999999999989,
+  "corr_scaled": 0.43027063061851206,
+  "vcd_sign_agreement": 0.6317489520597939,
+  "n_points": 1392
+ },
+ "pohl2007_fig7d_vcd_ar_matrix": {
+  "system": "AcA_ar",
+  "isotopologue": "H",
+  "observable": "vcd",
+  "conformer_weights": {
+   "C7": 0.5,
+   "C5": 0.5
+  },
+  "per_conformer_corr_at_best_scale": {
+   "C7": 0.29020411027438275,
+   "C5": 0.4716937328551275
+  },
+  "corr_unscaled": -0.3686321627200163,
+  "best_scale": 0.9324999999999989,
+  "corr_scaled": 0.4676638715971959,
+  "vcd_sign_agreement": 0.691295855690381,
+  "n_points": 1394
+ }
+}
