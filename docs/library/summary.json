@@ -1,15 +1,15 @@
 {
- "n_shards": 237,
- "n_sequences": 7969,
- "n_L_structures": 23907,
- "n_structures": 47814,
+ "n_shards": 238,
+ "n_sequences": 8000,
+ "n_L_structures": 24000,
+ "n_structures": 48000,
  "build_failures": [],
  "n_unconverged": 77,
  "fmax_max": 0.031188335954116818,
- "fmax_median": 0.009026996774571663,
- "n_imag_first": 2329,
- "n_imag_final": 247,
- "n_retried_improved": 2329,
+ "fmax_median": 0.009027305495597797,
+ "n_imag_first": 2338,
+ "n_imag_final": 249,
+ "n_retried_improved": 2338,
  "n_duplicates": 4,
  "opt_steps_median": 305.0,
  "opt_steps_max": 4500,
@@ -27,28 +27,28 @@
   "vcd": 0.060818545520305634
  },
  "covariance_p99_per_mode": {
-  "dfreq": 0.14536455024441847,
-  "dIR_rel": 0.0014826786729956309,
-  "dRaman_rel": 0.0053366695198979,
-  "dVCD_rel": 0.009080267059229229
+  "dfreq": 0.14483297667750344,
+  "dIR_rel": 0.0014789881225801818,
+  "dRaman_rel": 0.005329569911441933,
+  "dVCD_rel": 0.009042077887076425
  },
  "populations_by_start": {
-  "PPII": 0.2390539047245169,
-  "alphaR": 0.21879338604350906,
-  "beta": 0.542152709231974
+  "PPII": 0.23874155141626768,
+  "alphaR": 0.2192274998212967,
+  "beta": 0.5420309487624356
  },
  "populations_by_final_basin": {
-  "PPII": 0.1914777010657955,
-  "alphaL/other": 0.0014023118351368094,
-  "alphaR": 0.21878667203109198,
-  "beta": 0.5883333150679758
+  "PPII": 0.19106616855048825,
+  "alphaL/other": 0.0013968778767756542,
+  "alphaR": 0.21922081182567774,
+  "beta": 0.5883161417470584
  },
  "gpu_time_s": {
-  "minimise_s": 159709.49179530144,
-  "hessian_L_s": 45906.19801902771,
-  "retry_s": 37495.282007455826,
-  "hessian_D_s": 25165.01912546158,
-  "total_s": 269594.5713992119
+  "minimise_s": 160537.89407134056,
+  "hessian_L_s": 46081.24816322327,
+  "retry_s": 37700.03561544418,
+  "hessian_D_s": 25265.165514707565,
+  "total_s": 270914.5109920502
  },
  "charged_sequences": "none (Arg neutral via CHARMM36 RN1 patch)"
 }
