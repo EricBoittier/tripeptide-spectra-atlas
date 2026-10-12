@@ -1,54 +1,54 @@
 {
- "n_shards": 148,
- "n_sequences": 5196,
- "n_L_structures": 15588,
- "n_structures": 31176,
+ "n_shards": 237,
+ "n_sequences": 7969,
+ "n_L_structures": 23907,
+ "n_structures": 47814,
  "build_failures": [],
- "n_unconverged": 55,
- "fmax_max": 0.026487621199630922,
- "fmax_median": 0.009031051339329601,
- "n_imag_first": 1491,
- "n_imag_final": 151,
- "n_retried_improved": 1491,
- "n_duplicates": 3,
+ "n_unconverged": 77,
+ "fmax_max": 0.031188335954116818,
+ "fmax_median": 0.009026996774571663,
+ "n_imag_first": 2329,
+ "n_imag_final": 247,
+ "n_retried_improved": 2329,
+ "n_duplicates": 4,
  "opt_steps_median": 305.0,
- "opt_steps_max": 3320,
+ "opt_steps_max": 4500,
  "covariance_max_per_mode": {
   "dE": 0.0018062591552734375,
   "dfreq": 6.629445611500529,
-  "dIR_rel": 0.030050849760832946,
+  "dIR_rel": 0.054919096637545836,
   "dRaman_rel": 0.18054609306269373,
   "dVCD_rel": 0.35699796796036637,
-  "fmax_D": 0.026485027486759998
+  "fmax_D": 0.031179383992036364
  },
  "covariance_max_broadened": {
-  "ir": 0.008587326854467392,
+  "ir": 0.02634071372449398,
   "raman": 0.013338075019419193,
   "vcd": 0.060818545520305634
  },
  "covariance_p99_per_mode": {
-  "dfreq": 0.1049226639958444,
-  "dIR_rel": 0.0010306148661351827,
-  "dRaman_rel": 0.003978141745025942,
-  "dVCD_rel": 0.0064724461673439405
+  "dfreq": 0.14536455024441847,
+  "dIR_rel": 0.0014826786729956309,
+  "dRaman_rel": 0.0053366695198979,
+  "dVCD_rel": 0.009080267059229229
  },
  "populations_by_start": {
-  "PPII": 0.24022855513592606,
-  "alphaR": 0.21026567865222198,
-  "beta": 0.549505766211852
+  "PPII": 0.2390539047245169,
+  "alphaR": 0.21879338604350906,
+  "beta": 0.542152709231974
  },
  "populations_by_final_basin": {
-  "PPII": 0.19399327693623894,
-  "alphaL/other": 0.001668671294734102,
-  "alphaR": 0.2102637147113567,
-  "beta": 0.5940743370576702
+  "PPII": 0.1914777010657955,
+  "alphaL/other": 0.0014023118351368094,
+  "alphaR": 0.21878667203109198,
+  "beta": 0.5883333150679758
  },
  "gpu_time_s": {
-  "minimise_s": 104729.96202635765,
-  "hessian_L_s": 28652.25340294838,
-  "retry_s": 24194.70835018158,
-  "hessian_D_s": 16643.280351400375,
-  "total_s": 174790.61137080193
+  "minimise_s": 159709.49179530144,
+  "hessian_L_s": 45906.19801902771,
+  "retry_s": 37495.282007455826,
+  "hessian_D_s": 25165.01912546158,
+  "total_s": 269594.5713992119
  },
  "charged_sequences": "none (Arg neutral via CHARMM36 RN1 patch)"
 }
