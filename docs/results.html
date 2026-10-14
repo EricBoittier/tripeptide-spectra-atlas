@@ -284,6 +284,15 @@
 <h3>Limitations</h3><ul class="small"><li>mechanical embedding: no solvent polarisation of the model's charges/dipoles; solvent enters through geometry and the MM coupling Hessian only</li><li>harmonic, 0 K minima; two conformers per system; no anharmonic or thermal broadening beyond the Lorentzian</li><li>VCD from the model's charges-only atomic axial tensors</li><li>charged peptides evaluated with the neutral-trained model (rw_neutral) plus explicit counter-ions in the MM region</li></ul>
 <p class="small">Raw per-conformer outputs (stick frequencies and intensities for H and D isotopologues, minimised peptide geometry, model charges, dipole and polarizability) are in <a href="results/efieldphysnet_mlmm_20261012/raw/">results/efieldphysnet_mlmm_20261012/raw/</a> as JSON, one file per system and conformer.</p></section>
 
+<section><div class="eyebrow">04b / FIGURES</div><h2>Comparison figures by observable</h2>
+<p class="small">Experiment as filled areas over the measured window (shaded), prediction at the best uniform frequency scale as a line and unscaled dotted, both normalised inside the window; the whole study range is drawn so that predicted bands outside the measurement are visible. PNG at 300 dpi; PDF alongside.</p>
+<div class="gallery">
+<figure><img src="results/efieldphysnet_mlmm_20261012/figures/fig_exp_ir_eker_20261014.png" alt="IR, Eker 2002"><figcaption>IR, Eker 2002 (D₂O) · <a href="results/efieldphysnet_mlmm_20261012/figures/fig_exp_ir_eker_20261014.pdf">PDF</a></figcaption></figure>
+<figure><img src="results/efieldphysnet_mlmm_20261012/figures/fig_exp_ir_pohl_20261014.png" alt="IR, Pohl 2007"><figcaption>IR, Pohl 2007 (CH₂Cl₂, DMSO, Kr, Ar) · <a href="results/efieldphysnet_mlmm_20261012/figures/fig_exp_ir_pohl_20261014.pdf">PDF</a></figcaption></figure>
+<figure><img src="results/efieldphysnet_mlmm_20261012/figures/fig_exp_raman_20261014.png" alt="Raman, Eker 2002"><figcaption>Isotropic and anisotropic Raman, Eker 2002 · <a href="results/efieldphysnet_mlmm_20261012/figures/fig_exp_raman_20261014.pdf">PDF</a></figcaption></figure>
+<figure><img src="results/efieldphysnet_mlmm_20261012/figures/fig_exp_vcd_20261014.png" alt="VCD"><figcaption>VCD, Eker 2002 and Pohl 2007 · <a href="results/efieldphysnet_mlmm_20261012/figures/fig_exp_vcd_20261014.pdf">PDF</a></figcaption></figure>
+</div></section>
+
 <section><div class="eyebrow">05 / LIBRARY</div><h2>Gas-phase harmonic library of capped tripeptides</h2>
 <p class="intro">Same model, every Ac-X-X-X-NHMe sequence (X in the 20 standard amino acids, neutral Arg) from PPII, β and α<sub>R</sub> starts, L and D enantiomers: energies, dipoles, polarizabilities and IR / Raman / VCD. Complete: all 8000 sequences, 24000 L minima (48000 with mirror images).</p>
 <div class="stats"><div><strong>8000</strong>sequences</div><div><strong>24000</strong>L minima</div><div><strong>59 / 19 / 22 %</strong>β / PPII / α<sub>R</sub> basins</div><div><strong>75 h</strong>GPU time</div></div>
